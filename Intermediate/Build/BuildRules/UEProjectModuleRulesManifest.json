@@ -1,8 +1,0 @@
-{
-	"SourceFiles": [
-		"D:\\Unreal_Skyrim\\Source\\UEProject\\UEProject.Build.cs",
-		"D:\\Unreal_Skyrim\\Source\\UEProject.Target.cs",
-		"D:\\Unreal_Skyrim\\Source\\UEProjectEditor.Target.cs"
-	],
-	"EngineVersion": "5.1.1"
-}
