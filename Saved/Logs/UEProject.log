@@ -3074,3 +3074,343 @@ Saving these assets will allow them to be unloaded..
 [2024.05.21-09.46.02:217][855]LogFileHelpers: InternalPromptForCheckoutAndSave took 62 ms (total: 413 ms)
 [2024.05.21-09.46.02:225][855]AssetCheck: New page: Asset Save: B_Animation
 [2024.05.21-09.46.02:225][855]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/Character/Bear/B_Animation.B_Animation
+[2024.05.21-09.51.36:704][295]LogDerivedDataCache: C:/Users/rhksg/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:16.195 and deleted 0 files with total size 0 MiB. Scanned 8841 files in 8629 folders with total size 653 MiB.
+[2024.05.21-10.01.35:579][137]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2024.05.21-10.01.35:585][138]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=15180
+[2024.05.21-10.51.37:659][340]LogDerivedDataCache: C:/Users/rhksg/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:17.150 and deleted 0 files with total size 0 MiB. Scanned 8841 files in 8629 folders with total size 653 MiB.
+[2024.05.21-11.51.36:698][167]LogDerivedDataCache: C:/Users/rhksg/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:16.189 and deleted 0 files with total size 0 MiB. Scanned 8841 files in 8629 folders with total size 653 MiB.
+[2024.05.21-12.51.37:643][194]LogDerivedDataCache: C:/Users/rhksg/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:17.134 and deleted 0 files with total size 0 MiB. Scanned 8841 files in 8629 folders with total size 653 MiB.
+[2024.05.21-13.51.36:691][ 26]LogDerivedDataCache: C:/Users/rhksg/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:16.182 and deleted 0 files with total size 0 MiB. Scanned 8841 files in 8629 folders with total size 653 MiB.
+[2024.05.21-14.51.37:650][ 83]LogDerivedDataCache: C:/Users/rhksg/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:17.140 and deleted 0 files with total size 0 MiB. Scanned 8841 files in 8629 folders with total size 653 MiB.
+[2024.05.21-15.06.34:075][632]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2024.05.21-15.06.34:210][640]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Q27G2SG4B+(NVIDIA High Definition Audio), InstanceID=1
+[2024.05.21-15.06.34:314][650]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{07a5f426-2fc8-411b-8a43-0af70f89cee6}, Name=Q27G2SG4B+(NVIDIA High Definition Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=86.56
+[2024.05.21-15.06.34:314][650]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2024.05.21-15.06.34:315][650]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2024.05.21-15.07.28:014][259]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Character/Bear/BearClass.BearClass
+[2024.05.21-15.07.28:014][259]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.21-15.07.36:265][193]LogWorld: UWorld::CleanupWorld for World_40, bSessionEnded=true, bCleanupResources=true
+[2024.05.21-15.07.36:265][193]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.21-15.07.36:299][193]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Character/Bear/BearClass.BearClass
+[2024.05.21-15.07.36:299][193]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.21-15.08.47:565][553]BlueprintLog: New page: Compile BearClass
+[2024.05.21-15.08.47:578][553]LogBlueprint: Warning: [AssetLog] C:\Users\rhksg\Desktop\UnrealSkyrim2\Content\Character\Bear\B_Animation.uasset: [Compiler] IdleMove to Attack  will never be taken, please connect something to  Can Enter Transition
+[2024.05.21-15.08.47:584][553]LogBlueprint: Warning: [AssetLog] C:\Users\rhksg\Desktop\UnrealSkyrim2\Content\Character\Bear\B_Animation.uasset: [Compiler] Node  Blendspace 'BearBlendSpace'  uses potentially thread-unsafe call Get Data. Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2024.05.21-15.08.47:608][553]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.08.47:608][553]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.08.47:648][553]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2024.05.21-15.09.23:021][724]BlueprintLog: New page: Compile BearClass
+[2024.05.21-15.09.23:034][724]LogBlueprint: Warning: [AssetLog] C:\Users\rhksg\Desktop\UnrealSkyrim2\Content\Character\Bear\B_Animation.uasset: [Compiler] IdleMove to Attack  will never be taken, please connect something to  Can Enter Transition
+[2024.05.21-15.09.23:040][724]LogBlueprint: Warning: [AssetLog] C:\Users\rhksg\Desktop\UnrealSkyrim2\Content\Character\Bear\B_Animation.uasset: [Compiler] Node  Blendspace 'BearBlendSpace'  uses potentially thread-unsafe call Get Data. Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2024.05.21-15.09.23:060][724]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.09.23:060][724]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.09.23:089][724]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.05.21-15.10.06:113][819]BlueprintLog: New page: Compile BearClass
+[2024.05.21-15.10.06:126][819]LogBlueprint: Warning: [AssetLog] C:\Users\rhksg\Desktop\UnrealSkyrim2\Content\Character\Bear\B_Animation.uasset: [Compiler] IdleMove to Attack  will never be taken, please connect something to  Can Enter Transition
+[2024.05.21-15.10.06:133][819]LogBlueprint: Warning: [AssetLog] C:\Users\rhksg\Desktop\UnrealSkyrim2\Content\Character\Bear\B_Animation.uasset: [Compiler] Node  Blendspace 'BearBlendSpace'  uses potentially thread-unsafe call Get Data. Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2024.05.21-15.10.06:155][819]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.10.06:155][819]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.10.06:194][819]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2024.05.21-15.17.01:696][207]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Nameplate.Nameplate
+[2024.05.21-15.17.01:697][207]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.21-15.17.01:703][207]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.21-15.17.01:709][207]LogSlate: Warning: The command 'UMGEditor.OpenAnimDrawer' has the same default chord as 'EditorViewport.Next' [Ctrl+Shift+Space Bar]
+[2024.05.21-15.17.02:031][207]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.05.21-15.17.02:031][207]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.05.21-15.17.05:789][641]LogWorld: UWorld::CleanupWorld for World_43, bSessionEnded=true, bCleanupResources=true
+[2024.05.21-15.17.05:789][641]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.21-15.17.05:796][641]LogWorld: UWorld::CleanupWorld for World_42, bSessionEnded=true, bCleanupResources=true
+[2024.05.21-15.17.05:796][641]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.21-15.17.22:313][590]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class Y_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.17.22:315][590]LogViewport: Scene viewport resized to 1523x929, mode Windowed.
+[2024.05.21-15.17.27:511][203]LogViewport: Scene viewport resized to 1523x929, mode Windowed.
+[2024.05.21-15.17.53:586][231]LogShaderCompilers: Display: ================================================
+[2024.05.21-15.17.53:586][231]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.05.21-15.17.53:586][231]LogShaderCompilers: Display: Total job queries 376, among them cache hits 111 (29.52%)
+[2024.05.21-15.17.53:586][231]LogShaderCompilers: Display: Tracking 201 distinct input hashes that result in 110 distinct outputs (54.73%)
+[2024.05.21-15.17.53:586][231]LogShaderCompilers: Display: RAM used: 1.53 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.19%
+[2024.05.21-15.17.53:586][231]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.05.21-15.17.53:586][231]LogShaderCompilers: Display: Shaders Compiled: 201
+[2024.05.21-15.17.53:586][231]LogShaderCompilers: Display: Jobs assigned 201, completed 201 (100.00%)
+[2024.05.21-15.17.53:586][231]LogShaderCompilers: Display: Average time worker was idle: 678.04 s
+[2024.05.21-15.17.53:586][231]LogShaderCompilers: Display: Time job spent in pending queue: average 0.80 s, longest 7.43 s
+[2024.05.21-15.17.53:586][231]LogShaderCompilers: Display: Job execution time: average 2.01 s, max 8.07 s
+[2024.05.21-15.17.53:586][231]LogShaderCompilers: Display: Job life time (pending + execution): average 2.81 s, max 8.14
+[2024.05.21-15.17.53:586][231]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 24.95 s
+[2024.05.21-15.17.53:586][231]LogShaderCompilers: Display: Jobs were issued in 157 batches (only local compilation was used), average 1.28 jobs/batch
+[2024.05.21-15.17.53:586][231]LogShaderCompilers: Display: Average processing rate: 8.06 jobs/sec
+[2024.05.21-15.17.53:586][231]LogShaderCompilers: Display: Total thread time: 110.46 s
+[2024.05.21-15.17.53:586][231]LogShaderCompilers: Display: Total thread preprocess time: 6.57 s
+[2024.05.21-15.17.53:586][231]LogShaderCompilers: Display: Percentage time preprocessing: 5.95%
+[2024.05.21-15.17.53:586][231]LogShaderCompilers: Display: Effective parallelization: 4.43 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.05.21-15.17.53:586][231]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.05.21-15.17.53:586][231]LogShaderCompilers: Display:                                   FCloudRenderViewPS111false (compiled    1 times, average 1.30 sec, max 1.30 sec, min 1.30 sec)
+[2024.05.21-15.17.53:586][231]LogShaderCompilers: Display:                                   FCloudRenderViewPS011false (compiled    1 times, average 1.21 sec, max 1.21 sec, min 1.21 sec)
+[2024.05.21-15.17.53:586][231]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS (compiled   17 times, average 0.97 sec, max 1.28 sec, min 0.71 sec)
+[2024.05.21-15.17.53:586][231]LogShaderCompilers: Display:                                   FCloudRenderViewPS110false (compiled    1 times, average 0.97 sec, max 0.97 sec, min 0.97 sec)
+[2024.05.21-15.17.53:586][231]LogShaderCompilers: Display:                                   FCloudRenderViewPS001false (compiled    1 times, average 0.94 sec, max 0.94 sec, min 0.94 sec)
+[2024.05.21-15.17.53:586][231]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.05.21-15.17.53:587][231]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 23.78% of total time (compiled   48 times, average 0.55 sec, max 0.86 sec, min 0.39 sec)
+[2024.05.21-15.17.53:587][231]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 21.48% of total time (compiled   48 times, average 0.49 sec, max 0.68 sec, min 0.35 sec)
+[2024.05.21-15.17.53:587][231]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS - 14.95% of total time (compiled   17 times, average 0.97 sec, max 1.28 sec, min 0.71 sec)
+[2024.05.21-15.17.53:587][231]LogShaderCompilers: Display:                                                 FLumenCardVS - 9.38% of total time (compiled   23 times, average 0.45 sec, max 0.58 sec, min 0.35 sec)
+[2024.05.21-15.17.53:587][231]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 6.86% of total time (compiled   23 times, average 0.33 sec, max 0.54 sec, min 0.26 sec)
+[2024.05.21-15.17.53:587][231]LogShaderCompilers: Display: ================================================
+[2024.05.21-15.18.11:604][337]BlueprintLog: New page: Compile BearClass
+[2024.05.21-15.18.11:616][337]LogBlueprint: Warning: [AssetLog] C:\Users\rhksg\Desktop\UnrealSkyrim2\Content\Character\Bear\B_Animation.uasset: [Compiler] IdleMove to Attack  will never be taken, please connect something to  Can Enter Transition
+[2024.05.21-15.18.11:623][337]LogBlueprint: Warning: [AssetLog] C:\Users\rhksg\Desktop\UnrealSkyrim2\Content\Character\Bear\B_Animation.uasset: [Compiler] Node  Blendspace 'BearBlendSpace'  uses potentially thread-unsafe call Get Data. Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2024.05.21-15.18.11:663][337]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.11:663][337]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.11:706][337]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2024.05.21-15.18.35:502][ 76]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Color 'DefaultForeground'.'
+[2024.05.21-15.18.35:538][ 76]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.05.21-15.18.35:538][ 76]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.05.21-15.18.35:538][ 76]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.05.21-15.18.38:740][454]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.38:743][454]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.38:744][454]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.38:745][454]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.38:756][454]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.42:848][922]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.42:849][922]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.42:855][923]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.42:855][923]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.42:864][924]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.42:865][924]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.42:873][925]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.42:873][925]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.42:881][926]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.42:881][926]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.42:888][927]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.42:889][927]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.42:897][928]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.42:898][928]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.42:905][929]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.42:906][929]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.42:913][930]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.42:915][930]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.43:097][952]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.43:098][952]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.43:105][953]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.43:106][953]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.43:113][954]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.43:115][954]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.43:123][955]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.43:123][955]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.43:130][956]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.43:131][956]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.43:147][958]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.43:148][958]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.43:155][959]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.43:156][959]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.43:163][960]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.43:165][960]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.43:172][961]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.43:173][961]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.43:970][ 54]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.43:971][ 54]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.43:978][ 55]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.43:979][ 55]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.43:987][ 56]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.43:987][ 56]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.43:995][ 57]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.43:995][ 57]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.44:004][ 58]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.44:004][ 58]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.44:012][ 59]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.44:012][ 59]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.44:020][ 60]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.44:021][ 60]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.44:028][ 61]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.44:028][ 61]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.44:036][ 62]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.44:037][ 62]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.44:045][ 63]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.44:045][ 63]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.44:053][ 64]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.44:053][ 64]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.44:061][ 65]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.44:062][ 65]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.44:070][ 66]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.44:071][ 66]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.44:078][ 67]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.44:079][ 67]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.44:087][ 68]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.44:087][ 68]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.44:095][ 69]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.44:095][ 69]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.44:103][ 70]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.44:103][ 70]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.44:111][ 71]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.44:112][ 71]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.44:212][ 83]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.44:212][ 83]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.44:220][ 84]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.44:220][ 84]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.44:228][ 85]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.44:229][ 85]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.44:253][ 88]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.44:253][ 88]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.44:261][ 89]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.44:262][ 89]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.44:270][ 90]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.44:270][ 90]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.44:278][ 91]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.44:279][ 91]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.44:286][ 92]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.44:287][ 92]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.44:295][ 93]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.44:295][ 93]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.44:303][ 94]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.44:304][ 94]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.44:311][ 95]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.44:312][ 95]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.44:320][ 96]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.44:320][ 96]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.44:328][ 97]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.44:329][ 97]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.55:289][403]BlueprintLog: New page: Compile BearClass
+[2024.05.21-15.18.55:302][403]LogBlueprint: Warning: [AssetLog] C:\Users\rhksg\Desktop\UnrealSkyrim2\Content\Character\Bear\B_Animation.uasset: [Compiler] IdleMove to Attack  will never be taken, please connect something to  Can Enter Transition
+[2024.05.21-15.18.55:309][403]LogBlueprint: Warning: [AssetLog] C:\Users\rhksg\Desktop\UnrealSkyrim2\Content\Character\Bear\B_Animation.uasset: [Compiler] Node  Blendspace 'BearBlendSpace'  uses potentially thread-unsafe call Get Data. Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2024.05.21-15.18.55:330][403]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.55:331][403]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_41:PersistentLevel.BearClass_C_0.CharacterMesh0' Bone: 'NPC-Pelvis' 
+[2024.05.21-15.18.55:331][403]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_41:PersistentLevel.BearClass_C_0.CharacterMesh0' Bone: 'NPC-LLeg1' 
+[2024.05.21-15.18.55:331][403]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_41:PersistentLevel.BearClass_C_0.CharacterMesh0' Bone: 'NPC-LLeg2' 
+[2024.05.21-15.18.55:331][403]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_41:PersistentLevel.BearClass_C_0.CharacterMesh0' Bone: 'NPC-LLegBall1' 
+[2024.05.21-15.18.55:331][403]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_41:PersistentLevel.BearClass_C_0.CharacterMesh0' Bone: 'NPC-RLeg1' 
+[2024.05.21-15.18.55:331][403]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_41:PersistentLevel.BearClass_C_0.CharacterMesh0' Bone: 'NPC-RLeg2' 
+[2024.05.21-15.18.55:331][403]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_41:PersistentLevel.BearClass_C_0.CharacterMesh0' Bone: 'NPC-RLegBall1' 
+[2024.05.21-15.18.55:331][403]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_41:PersistentLevel.BearClass_C_0.CharacterMesh0' Bone: 'NPC-Spine1' 
+[2024.05.21-15.18.55:331][403]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_41:PersistentLevel.BearClass_C_0.CharacterMesh0' Bone: 'NPC-Spine1BackJiggle' 
+[2024.05.21-15.18.55:331][403]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_41:PersistentLevel.BearClass_C_0.CharacterMesh0' Bone: 'NPC-Spine1Jiggle' 
+[2024.05.21-15.18.55:331][403]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_41:PersistentLevel.BearClass_C_0.CharacterMesh0' Bone: 'NPC-Spine2' 
+[2024.05.21-15.18.55:331][403]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_41:PersistentLevel.BearClass_C_0.CharacterMesh0' Bone: 'NPC-Spine3' 
+[2024.05.21-15.18.55:331][403]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_41:PersistentLevel.BearClass_C_0.CharacterMesh0' Bone: 'NPC-Spine4' 
+[2024.05.21-15.18.55:331][403]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_41:PersistentLevel.BearClass_C_0.CharacterMesh0' Bone: 'NPC-Spine4Jiggle' 
+[2024.05.21-15.18.55:331][403]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_41:PersistentLevel.BearClass_C_0.CharacterMesh0' Bone: 'NPC-LArmCollarbone' 
+[2024.05.21-15.18.55:331][403]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_41:PersistentLevel.BearClass_C_0.CharacterMesh0' Bone: 'NPC-LArm2' 
+[2024.05.21-15.18.55:331][403]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_41:PersistentLevel.BearClass_C_0.CharacterMesh0' Bone: 'NPC-LArmBall1' 
+[2024.05.21-15.18.55:331][403]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_41:PersistentLevel.BearClass_C_0.CharacterMesh0' Bone: 'NPC-LArm2-ForearmTwist2' 
+[2024.05.21-15.18.55:331][403]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_41:PersistentLevel.BearClass_C_0.CharacterMesh0' Bone: 'NPC-LArm1-UpperArmTwist1' 
+[2024.05.21-15.18.55:331][403]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_41:PersistentLevel.BearClass_C_0.CharacterMesh0' Bone: 'NPC-Neck1' 
+[2024.05.21-15.18.55:331][403]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_41:PersistentLevel.BearClass_C_0.CharacterMesh0' Bone: 'NPC-Neck2' 
+[2024.05.21-15.18.55:331][403]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_41:PersistentLevel.BearClass_C_0.CharacterMesh0' Bone: 'NPC-Head' 
+[2024.05.21-15.18.55:331][403]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_41:PersistentLevel.BearClass_C_0.CharacterMesh0' Bone: 'NPC-Jaw' 
+[2024.05.21-15.18.55:331][403]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_41:PersistentLevel.BearClass_C_0.CharacterMesh0' Bone: 'NPC-RArmCollarbone' 
+[2024.05.21-15.18.55:331][403]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_41:PersistentLevel.BearClass_C_0.CharacterMesh0' Bone: 'NPC-RArm2' 
+[2024.05.21-15.18.55:331][403]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_41:PersistentLevel.BearClass_C_0.CharacterMesh0' Bone: 'NPC-RArmBall1' 
+[2024.05.21-15.18.55:331][403]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_41:PersistentLevel.BearClass_C_0.CharacterMesh0' Bone: 'NPC-RArm2-ForearmTwist2' 
+[2024.05.21-15.18.55:331][403]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_41:PersistentLevel.BearClass_C_0.CharacterMesh0' Bone: 'NPC-RArm1-UpperArmTwist1' 
+[2024.05.21-15.18.55:332][403]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.55:332][403]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_41:PersistentLevel.BearClass_C_0.CharacterMesh0' Bone: 'NPC-Pelvis' 
+[2024.05.21-15.18.55:332][403]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_41:PersistentLevel.BearClass_C_0.CharacterMesh0' Bone: 'NPC-LLeg1' 
+[2024.05.21-15.18.55:332][403]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_41:PersistentLevel.BearClass_C_0.CharacterMesh0' Bone: 'NPC-LLeg2' 
+[2024.05.21-15.18.55:332][403]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_41:PersistentLevel.BearClass_C_0.CharacterMesh0' Bone: 'NPC-LLegBall1' 
+[2024.05.21-15.18.55:332][403]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_41:PersistentLevel.BearClass_C_0.CharacterMesh0' Bone: 'NPC-RLeg1' 
+[2024.05.21-15.18.55:332][403]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_41:PersistentLevel.BearClass_C_0.CharacterMesh0' Bone: 'NPC-RLeg2' 
+[2024.05.21-15.18.55:332][403]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_41:PersistentLevel.BearClass_C_0.CharacterMesh0' Bone: 'NPC-RLegBall1' 
+[2024.05.21-15.18.55:332][403]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_41:PersistentLevel.BearClass_C_0.CharacterMesh0' Bone: 'NPC-Spine1' 
+[2024.05.21-15.18.55:332][403]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_41:PersistentLevel.BearClass_C_0.CharacterMesh0' Bone: 'NPC-Spine1BackJiggle' 
+[2024.05.21-15.18.55:332][403]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_41:PersistentLevel.BearClass_C_0.CharacterMesh0' Bone: 'NPC-Spine1Jiggle' 
+[2024.05.21-15.18.55:332][403]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_41:PersistentLevel.BearClass_C_0.CharacterMesh0' Bone: 'NPC-Spine2' 
+[2024.05.21-15.18.55:332][403]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_41:PersistentLevel.BearClass_C_0.CharacterMesh0' Bone: 'NPC-Spine3' 
+[2024.05.21-15.18.55:332][403]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_41:PersistentLevel.BearClass_C_0.CharacterMesh0' Bone: 'NPC-Spine4' 
+[2024.05.21-15.18.55:332][403]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_41:PersistentLevel.BearClass_C_0.CharacterMesh0' Bone: 'NPC-Spine4Jiggle' 
+[2024.05.21-15.18.55:332][403]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_41:PersistentLevel.BearClass_C_0.CharacterMesh0' Bone: 'NPC-LArmCollarbone' 
+[2024.05.21-15.18.55:332][403]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_41:PersistentLevel.BearClass_C_0.CharacterMesh0' Bone: 'NPC-LArm2' 
+[2024.05.21-15.18.55:332][403]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_41:PersistentLevel.BearClass_C_0.CharacterMesh0' Bone: 'NPC-LArmBall1' 
+[2024.05.21-15.18.55:332][403]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_41:PersistentLevel.BearClass_C_0.CharacterMesh0' Bone: 'NPC-LArm2-ForearmTwist2' 
+[2024.05.21-15.18.55:332][403]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_41:PersistentLevel.BearClass_C_0.CharacterMesh0' Bone: 'NPC-LArm1-UpperArmTwist1' 
+[2024.05.21-15.18.55:332][403]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_41:PersistentLevel.BearClass_C_0.CharacterMesh0' Bone: 'NPC-Neck1' 
+[2024.05.21-15.18.55:332][403]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_41:PersistentLevel.BearClass_C_0.CharacterMesh0' Bone: 'NPC-Neck2' 
+[2024.05.21-15.18.55:332][403]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_41:PersistentLevel.BearClass_C_0.CharacterMesh0' Bone: 'NPC-Head' 
+[2024.05.21-15.18.55:332][403]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_41:PersistentLevel.BearClass_C_0.CharacterMesh0' Bone: 'NPC-Jaw' 
+[2024.05.21-15.18.55:332][403]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_41:PersistentLevel.BearClass_C_0.CharacterMesh0' Bone: 'NPC-RArmCollarbone' 
+[2024.05.21-15.18.55:332][403]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_41:PersistentLevel.BearClass_C_0.CharacterMesh0' Bone: 'NPC-RArm2' 
+[2024.05.21-15.18.55:332][403]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_41:PersistentLevel.BearClass_C_0.CharacterMesh0' Bone: 'NPC-RArmBall1' 
+[2024.05.21-15.18.55:332][403]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_41:PersistentLevel.BearClass_C_0.CharacterMesh0' Bone: 'NPC-RArm2-ForearmTwist2' 
+[2024.05.21-15.18.55:332][403]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_41:PersistentLevel.BearClass_C_0.CharacterMesh0' Bone: 'NPC-RArm1-UpperArmTwist1' 
+[2024.05.21-15.18.55:333][403]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.55:333][403]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.55:346][403]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.55:346][403]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.55:346][403]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.55:346][403]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.55:379][403]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2024.05.21-15.18.55:388][403]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.55:391][403]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.55:392][403]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.55:397][403]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.55:399][403]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.18.55:425][403]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class B_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.21-15.19.45:076][328]LogViewport: Scene viewport resized to 1523x929, mode Windowed.
+[2024.05.21-15.20.05:166][720]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Character/Bear/BearController.BearController
+[2024.05.21-15.20.05:166][720]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.21-15.20.05:538][720]LogViewport: Scene viewport resized to 1523x929, mode Windowed.
+[2024.05.21-15.20.50:059][927]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.05.21-15.20.50:059][927]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.05.21-15.20.50:059][927]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.05.21-15.24.52:354][656]BlueprintLog: New page: Compile BearController
+[2024.05.21-15.24.52:356][656]LogBlueprint: Error: [AssetLog] /Game/Character/Bear/BearController.BearController (no disk path found): [Compiler] The current value (None) of the ' Key Name ' pin is invalid: 'Key Name' in action 'Set Value as Bool' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2024.05.21-15.24.52:422][656]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2024.05.21-15.25.04:245][ 51]BlueprintLog: New page: Compile BearController
+[2024.05.21-15.25.04:293][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.05.21-15.25.39:512][235]BlueprintLog: New page: Compile BearController
+[2024.05.21-15.25.39:568][235]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.05.21-15.26.02:595][966]BlueprintLog: New page: Compile BearController
+[2024.05.21-15.26.02:646][966]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2024.05.21-15.26.54:771][185]BlueprintLog: New page: Compile BearController
+[2024.05.21-15.26.54:837][185]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2024.05.21-15.27.48:311][520]BlueprintLog: New page: Compile BearController
+[2024.05.21-15.27.48:372][520]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.05.21-15.28.21:779][440]BlueprintLog: New page: Compile BearController
+[2024.05.21-15.28.21:781][440]LogBlueprint: Error: [AssetLog] /Game/Character/Bear/BearController.BearController (no disk path found): [Compiler] The current value (None) of the ' Key Name ' pin is invalid: 'Key Name' in action 'Set Value as Bool' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2024.05.21-15.28.21:837][440]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2024.05.21-15.28.31:432][560]BlueprintLog: New page: Compile BearController
+[2024.05.21-15.28.31:494][560]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2024.05.21-15.36.30:077][863]BlueprintLog: New page: Compile BearController
+[2024.05.21-15.36.30:147][863]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2024.05.21-15.36.49:822][159]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find source file and line number for 'AActor::K2_GetActorLocation' [지정된 모듈을 찾을 수 없습니다.]
+[2024.05.21-15.37.15:788][230]BlueprintLog: New page: Compile BearController
+[2024.05.21-15.37.15:850][230]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.05.21-15.39.26:188][565]BlueprintLog: New page: Compile BearController
+[2024.05.21-15.39.26:255][565]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2024.05.21-15.40.09:915][654]BlueprintLog: New page: Compile BearController
+[2024.05.21-15.40.09:980][654]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2024.05.21-15.40.25:503][456]LogContentBrowser: Deferred new asset file creation: NewBehaviorTree
+[2024.05.21-15.40.25:507][456]LogContentBrowser: Creating deferred item: NewBehaviorTree
+[2024.05.21-15.40.25:513][457]LogContentBrowser: Renaming the item being created (Deferred Item: NewBehaviorTree).
+[2024.05.21-15.40.30:768][ 88]LogContentBrowser: Attempting asset rename: NewBehaviorTree -> BearBehavior
+[2024.05.21-15.40.30:770][ 88]LogContentBrowser: End creating deferred item NewBehaviorTree
+[2024.05.21-15.40.39:180][ 70]LogContentBrowser: Deferred new asset file creation: NewBlackboardData
+[2024.05.21-15.40.39:184][ 70]LogContentBrowser: Creating deferred item: NewBlackboardData
+[2024.05.21-15.40.39:191][ 71]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlackboardData).
+[2024.05.21-15.40.43:254][559]LogContentBrowser: Attempting asset rename: NewBlackboardData -> BearBlackboard
+[2024.05.21-15.40.43:256][559]LogContentBrowser: End creating deferred item NewBlackboardData
+[2024.05.21-15.40.47:634][ 70]LogAssetEditorSubsystem: Opening Asset editor for BlackboardData /Game/AI_Tree/BearBlackboard.BearBlackboard
+[2024.05.21-15.40.51:572][531]LogAssetEditorSubsystem: Opening Asset editor for BlackboardData /Game/AI_Tree/YBotBlackboard.YBotBlackboard
+[2024.05.21-15.41.04:837][109]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.05.21-15.41.04:837][109]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.05.21-15.41.04:837][109]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.05.21-15.41.58:240][486]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.21-15.41.58:268][486]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI_Tree/BearBlackboard" FILE="../../../../../Users/rhksg/Desktop/UnrealSkyrim2/Content/AI_Tree/BearBlackboard.uasset" SILENT=true
+[2024.05.21-15.41.58:269][486]LogSavePackage: Moving output files for package: /Game/AI_Tree/BearBlackboard
+[2024.05.21-15.41.58:269][486]LogSavePackage: Moving '../../../../../Users/rhksg/Desktop/UnrealSkyrim2/Saved/BearBlackboard97B39968475CB52CA73C508BD68D268E.tmp' to '../../../../../Users/rhksg/Desktop/UnrealSkyrim2/Content/AI_Tree/BearBlackboard.uasset'
+[2024.05.21-15.41.58:275][486]LogFileHelpers: InternalPromptForCheckoutAndSave took 34 ms (total: 447 ms)
+[2024.05.21-15.41.58:281][486]AssetCheck: New page: Asset Save: BearBlackboard
+[2024.05.21-15.41.58:281][486]LogContentValidation: Display: Validating /Script/AIModule.BlackboardData /Game/AI_Tree/BearBlackboard.BearBlackboard
+[2024.05.21-15.42.03:181][ 49]LogWorld: UWorld::CleanupWorld for World_38, bSessionEnded=true, bCleanupResources=true
+[2024.05.21-15.42.03:181][ 49]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.21-15.42.03:234][ 49]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2024.05.21-15.42.03:234][ 49]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.21-15.42.12:186][111]BlueprintLog: New page: Compile BearController
+[2024.05.21-15.42.12:259][111]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2024.05.21-15.42.16:650][625]LogAssetEditorSubsystem: Opening Asset editor for BehaviorTree /Game/AI_Tree/YBotBehaviour.YBotBehaviour
+[2024.05.21-15.42.36:286][954]LogAssetEditorSubsystem: Opening Asset editor for BehaviorTree /Game/AI_Tree/BearBehavior.BearBehavior
+[2024.05.21-15.43.10:532][ 40]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.21-15.43.10:556][ 40]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI_Tree/BearBehavior" FILE="../../../../../Users/rhksg/Desktop/UnrealSkyrim2/Content/AI_Tree/BearBehavior.uasset" SILENT=true
+[2024.05.21-15.43.10:557][ 40]LogSavePackage: Moving output files for package: /Game/AI_Tree/BearBehavior
+[2024.05.21-15.43.10:557][ 40]LogSavePackage: Moving '../../../../../Users/rhksg/Desktop/UnrealSkyrim2/Saved/BearBehavior1DD3D3384045858BD0DB63A6022D9556.tmp' to '../../../../../Users/rhksg/Desktop/UnrealSkyrim2/Content/AI_Tree/BearBehavior.uasset'
+[2024.05.21-15.43.10:562][ 40]LogFileHelpers: InternalPromptForCheckoutAndSave took 29 ms (total: 476 ms)
+[2024.05.21-15.43.10:571][ 40]AssetCheck: New page: Asset Save: BearBehavior
+[2024.05.21-15.43.10:571][ 40]LogContentValidation: Display: Validating /Script/AIModule.BehaviorTree /Game/AI_Tree/BearBehavior.BearBehavior
