@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "UEProject",
+			"Path": "D:\\REProject_2\\Source\\UEProject.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "UEProjectEditor",
+			"Path": "D:\\REProject_2\\Source\\UEProjectEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

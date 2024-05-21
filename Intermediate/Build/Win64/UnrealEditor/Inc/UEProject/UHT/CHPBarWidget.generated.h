@@ -1,0 +1,101 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "Widgets/CHPBarWidget.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef UEPROJECT_CHPBarWidget_generated_h
+#error "CHPBarWidget.generated.h already included, missing '#pragma once' in CHPBarWidget.h"
+#endif
+#define UEPROJECT_CHPBarWidget_generated_h
+
+#define FID_REProject_2_Source_UEProject_Widgets_CHPBarWidget_h_10_SPARSE_DATA
+#define FID_REProject_2_Source_UEProject_Widgets_CHPBarWidget_h_10_RPC_WRAPPERS
+#define FID_REProject_2_Source_UEProject_Widgets_CHPBarWidget_h_10_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_REProject_2_Source_UEProject_Widgets_CHPBarWidget_h_10_ACCESSORS
+#define FID_REProject_2_Source_UEProject_Widgets_CHPBarWidget_h_10_CALLBACK_WRAPPERS
+#define FID_REProject_2_Source_UEProject_Widgets_CHPBarWidget_h_10_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUCHPBarWidget(); \
+	friend struct Z_Construct_UClass_UCHPBarWidget_Statics; \
+public: \
+	DECLARE_CLASS(UCHPBarWidget, UUserWidget, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/UEProject"), NO_API) \
+	DECLARE_SERIALIZER(UCHPBarWidget)
+
+
+#define FID_REProject_2_Source_UEProject_Widgets_CHPBarWidget_h_10_INCLASS \
+private: \
+	static void StaticRegisterNativesUCHPBarWidget(); \
+	friend struct Z_Construct_UClass_UCHPBarWidget_Statics; \
+public: \
+	DECLARE_CLASS(UCHPBarWidget, UUserWidget, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/UEProject"), NO_API) \
+	DECLARE_SERIALIZER(UCHPBarWidget)
+
+
+#define FID_REProject_2_Source_UEProject_Widgets_CHPBarWidget_h_10_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UCHPBarWidget(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCHPBarWidget) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCHPBarWidget); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCHPBarWidget); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UCHPBarWidget(UCHPBarWidget&&); \
+	NO_API UCHPBarWidget(const UCHPBarWidget&); \
+public: \
+	NO_API virtual ~UCHPBarWidget();
+
+
+#define FID_REProject_2_Source_UEProject_Widgets_CHPBarWidget_h_10_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UCHPBarWidget(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UCHPBarWidget(UCHPBarWidget&&); \
+	NO_API UCHPBarWidget(const UCHPBarWidget&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCHPBarWidget); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCHPBarWidget); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCHPBarWidget) \
+	NO_API virtual ~UCHPBarWidget();
+
+
+#define FID_REProject_2_Source_UEProject_Widgets_CHPBarWidget_h_7_PROLOG
+#define FID_REProject_2_Source_UEProject_Widgets_CHPBarWidget_h_10_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_REProject_2_Source_UEProject_Widgets_CHPBarWidget_h_10_SPARSE_DATA \
+	FID_REProject_2_Source_UEProject_Widgets_CHPBarWidget_h_10_RPC_WRAPPERS \
+	FID_REProject_2_Source_UEProject_Widgets_CHPBarWidget_h_10_ACCESSORS \
+	FID_REProject_2_Source_UEProject_Widgets_CHPBarWidget_h_10_CALLBACK_WRAPPERS \
+	FID_REProject_2_Source_UEProject_Widgets_CHPBarWidget_h_10_INCLASS \
+	FID_REProject_2_Source_UEProject_Widgets_CHPBarWidget_h_10_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_REProject_2_Source_UEProject_Widgets_CHPBarWidget_h_10_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_REProject_2_Source_UEProject_Widgets_CHPBarWidget_h_10_SPARSE_DATA \
+	FID_REProject_2_Source_UEProject_Widgets_CHPBarWidget_h_10_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_REProject_2_Source_UEProject_Widgets_CHPBarWidget_h_10_ACCESSORS \
+	FID_REProject_2_Source_UEProject_Widgets_CHPBarWidget_h_10_CALLBACK_WRAPPERS \
+	FID_REProject_2_Source_UEProject_Widgets_CHPBarWidget_h_10_INCLASS_NO_PURE_DECLS \
+	FID_REProject_2_Source_UEProject_Widgets_CHPBarWidget_h_10_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> UEPROJECT_API UClass* StaticClass<class UCHPBarWidget>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_REProject_2_Source_UEProject_Widgets_CHPBarWidget_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

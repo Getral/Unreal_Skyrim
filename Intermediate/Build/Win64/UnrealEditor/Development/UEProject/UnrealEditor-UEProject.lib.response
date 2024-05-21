@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-UEProject.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\REProject_2\Intermediate\Build\Win64\UEProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h.obj"
+"D:\REProject_2\Intermediate\Build\Win64\UnrealEditor\Development\UEProject\Module.UEProject.cpp.obj"
+"D:\REProject_2\Intermediate\Build\Win64\UnrealEditor\Development\UEProject\Default.rc2.res"
+/OUT:"D:\REProject_2\Intermediate\Build\Win64\UnrealEditor\Development\UEProject\UnrealEditor-UEProject.lib"
