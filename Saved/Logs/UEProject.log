@@ -2111,3 +2111,27 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.05.22-04.35.34:300][647]LogFileHelpers: InternalPromptForCheckoutAndSave took 63 ms (total: 538 ms)
 [2024.05.22-04.35.34:312][647]AssetCheck: New page: 에셋 저장:  BearBehavior
 [2024.05.22-04.35.34:312][647]LogContentValidation: Display: /Script/AIModule.BehaviorTree /Game/AI_Tree/BearBehavior.BearBehavior 유효성 검사 중
+[2024.05.22-04.36.18:848][705]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2024.05.22-04.36.19:953][705]LogSlate: Window '콘텐츠 저장' being destroyed
+[2024.05.22-04.36.19:962][705]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.22-04.36.20:014][705]AnimBlueprintLog: Warning: 슬롯노드: B_Animation_C 애니메이션 인스턴트 클래스의 'DefaultSlot'는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2024.05.22-04.36.20:053][705]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Bear/BearClass" FILE="D:/Unreal_Skyrim/Content/Character/Bear/BearClass.uasset" SILENT=true
+[2024.05.22-04.36.20:076][705]LogSavePackage: Moving output files for package: /Game/Character/Bear/BearClass
+[2024.05.22-04.36.20:077][705]LogSavePackage: Moving 'D:/Unreal_Skyrim/Saved/BearClassB36EB38E4BF1A4A4A94AB79DBD39972D.tmp' to 'D:/Unreal_Skyrim/Content/Character/Bear/BearClass.uasset'
+[2024.05.22-04.36.20:080][705]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Bear/BearController" FILE="D:/Unreal_Skyrim/Content/Character/Bear/BearController.uasset" SILENT=true
+[2024.05.22-04.36.20:102][705]LogSavePackage: Moving output files for package: /Game/Character/Bear/BearController
+[2024.05.22-04.36.20:103][705]LogSavePackage: Moving 'D:/Unreal_Skyrim/Saved/BearController4B04E9DF49506B2A9F17CCB53343015D.tmp' to 'D:/Unreal_Skyrim/Content/Character/Bear/BearController.uasset'
+[2024.05.22-04.36.20:115][705]AnimBlueprintLog: Warning: 슬롯노드: Y_Animation_C 애니메이션 인스턴트 클래스의 'DefaultSlot'는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2024.05.22-04.36.20:145][705]AnimBlueprintLog: Warning: 슬롯노드: Y_Animation_C 애니메이션 인스턴트 클래스의 'DefaultSlot'는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2024.05.22-04.36.20:160][705]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Enemy_YBot/Y_Bot" FILE="D:/Unreal_Skyrim/Content/Character/Enemy_YBot/Y_Bot.uasset" SILENT=true
+[2024.05.22-04.36.20:217][705]LogSavePackage: Moving output files for package: /Game/Character/Enemy_YBot/Y_Bot
+[2024.05.22-04.36.20:218][705]LogSavePackage: Moving 'D:/Unreal_Skyrim/Saved/Y_BotB465015B4EB07681CCF2A6959FBC6401.tmp' to 'D:/Unreal_Skyrim/Content/Character/Enemy_YBot/Y_Bot.uasset'
+[2024.05.22-04.36.20:225][705]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Enemy_YBot/Y_BotController" FILE="D:/Unreal_Skyrim/Content/Character/Enemy_YBot/Y_BotController.uasset" SILENT=true
+[2024.05.22-04.36.20:246][705]LogSavePackage: Moving output files for package: /Game/Character/Enemy_YBot/Y_BotController
+[2024.05.22-04.36.20:247][705]LogSavePackage: Moving 'D:/Unreal_Skyrim/Saved/Y_BotControllerE5582CEC4EE7045F5B715CBBC2A6B7BE.tmp' to 'D:/Unreal_Skyrim/Content/Character/Enemy_YBot/Y_BotController.uasset'
+[2024.05.22-04.36.20:255][705]LogFileHelpers: InternalPromptForCheckoutAndSave took 292 ms (total: 831 ms)
+[2024.05.22-04.36.20:268][705]AssetCheck: New page: 에셋 저장:  다수의 에셋
+[2024.05.22-04.36.20:268][705]LogContentValidation: Display: /Script/Engine.Blueprint /Game/Character/Bear/BearClass.BearClass 유효성 검사 중
+[2024.05.22-04.36.20:268][705]LogContentValidation: Display: /Script/Engine.Blueprint /Game/Character/Enemy_YBot/Y_Bot.Y_Bot 유효성 검사 중
+[2024.05.22-04.36.20:268][705]LogContentValidation: Display: /Script/Engine.Blueprint /Game/Character/Enemy_YBot/Y_BotController.Y_BotController 유효성 검사 중
+[2024.05.22-04.36.20:268][705]LogContentValidation: Display: /Script/Engine.Blueprint /Game/Character/Bear/BearController.BearController 유효성 검사 중
