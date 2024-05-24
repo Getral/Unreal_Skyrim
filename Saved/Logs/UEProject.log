@@ -7696,3 +7696,670 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.05.24-09.58.49:497][552]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/AI_Tree/Dog/BTT_Attack_Dog.BTT_Attack_Dog
 [2024.05.24-09.58.49:497][552]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Character/Dog/DogController.DogController
 [2024.05.24-09.58.49:497][552]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/StartMap.StartMap
+[2024.05.24-10.00.22:565][ 45]BlueprintLog: New page: Compile BTT_Attack_Dog
+[2024.05.24-10.00.22:634][ 45]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2024.05.24-10.00.25:182][340]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.05.24-10.00.25:189][340]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.05.24-10.00.25:189][340]PIE: New page: PIE session: StartMap (May 25, 2024, 4:00:25 AM)
+[2024.05.24-10.00.25:212][340]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartMap
+[2024.05.24-10.00.25:220][340]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008232s)
+[2024.05.24-10.00.25:220][340]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartMap.StartMap to /Game/Maps/UEDPIE_0_StartMap.StartMap (0.008257s)
+[2024.05.24-10.00.25:220][340]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.24-10.00.25:220][340]LogAIModule: Creating AISystem for world StartMap
+[2024.05.24-10.00.25:220][340]LogPlayLevel: PIE: World Init took: (0.000582s)
+[2024.05.24-10.00.25:273][340]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2024.05.24-10.00.25:277][340]LogAudio: Display: Creating Audio Device:                 Id: 46, Scope: Unique, Realtime: True
+[2024.05.24-10.00.25:278][340]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.05.24-10.00.25:278][340]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.05.24-10.00.25:278][340]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.05.24-10.00.25:278][340]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.05.24-10.00.25:278][340]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.05.24-10.00.25:278][340]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.05.24-10.00.25:278][340]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.05.24-10.00.25:278][340]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.05.24-10.00.25:278][340]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.05.24-10.00.25:278][340]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.05.24-10.00.25:278][340]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.05.24-10.00.25:280][340]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.05.24-10.00.25:304][340]LogAudioMixer: Display: Using Audio Hardware Device Q27G2SG4B+(NVIDIA High Definition Audio)
+[2024.05.24-10.00.25:304][340]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.05.24-10.00.25:304][340]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.05.24-10.00.25:304][340]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.05.24-10.00.25:305][340]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=46
+[2024.05.24-10.00.25:305][340]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=46
+[2024.05.24-10.00.25:306][340]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=46
+[2024.05.24-10.00.25:306][340]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=46
+[2024.05.24-10.00.25:306][340]LogInit: FAudioDevice initialized.
+[2024.05.24-10.00.25:306][340]LogAudio: Display: Audio Device (ID: 46) registered with world 'StartMap'.
+[2024.05.24-10.00.25:309][340]LogLoad: Game class is 'MyGameMode_C'
+[2024.05.24-10.00.25:310][340]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class Y_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.24-10.00.25:310][340]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class Y_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.24-10.00.25:311][340]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class Y_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.24-10.00.25:311][340]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class DogAnimation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.24-10.00.25:311][340]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartMap.StartMap up for play (max tick rate 0) at 2024.05.24-19.00.25
+[2024.05.24-10.00.25:315][340]LogWorld: Bringing up level for play took: 0.006570
+[2024.05.24-10.00.25:317][340]LogOnline: OSS: Created online subsystem instance for: :Context_87
+[2024.05.24-10.00.25:321][340]LogBlueprintUserMessages: [PlayerCharacter_C_0] 1200.0
+[2024.05.24-10.00.25:321][340]LogBlueprintUserMessages: [PlayerCharacter_C_0] 600.0
+[2024.05.24-10.00.25:321][340]LogBlueprintUserMessages: [PlayerCharacter_C_0] 3.0
+[2024.05.24-10.00.25:321][340]PIE: Server logged in
+[2024.05.24-10.00.25:321][340]PIE: Play in editor total start time 0.135 seconds.
+[2024.05.24-10.00.29:530][837]LogBlueprintUserMessages: [BTS_State_C_0] 1069.220581
+[2024.05.24-10.00.30:073][902]LogBlueprintUserMessages: [BTS_State_C_0] 647.908875
+[2024.05.24-10.00.30:506][954]LogBlueprintUserMessages: [BTS_State_C_0] 429.017212
+[2024.05.24-10.00.30:964][  9]LogBlueprintUserMessages: [BTS_State_C_0] 156.250229
+[2024.05.24-10.00.31:413][ 63]LogBlueprintUserMessages: [BTS_State_C_0] 107.302933
+[2024.05.24-10.00.31:413][ 63]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.00.31:430][ 65]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.00.31:447][ 67]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.00.31:464][ 69]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.00.31:480][ 71]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.00.31:497][ 73]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.00.31:513][ 75]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.00.31:530][ 77]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.00.31:547][ 79]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.00.31:564][ 81]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.00.31:580][ 83]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.00.31:597][ 85]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.00.31:613][ 87]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.00.31:630][ 89]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.00.31:647][ 91]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.00.31:663][ 93]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.00.31:681][ 95]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.00.31:697][ 97]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.00.31:714][ 99]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.00.31:731][101]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.00.31:747][103]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.00.31:764][105]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.00.31:781][107]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.00.31:797][109]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.00.31:813][111]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.00.31:831][113]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.00.31:847][115]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.00.31:855][116]LogBlueprintUserMessages: [BTS_State_C_0] 188.732391
+[2024.05.24-10.00.32:372][178]LogBlueprintUserMessages: [BTS_State_C_0] 213.039551
+[2024.05.24-10.00.32:939][246]LogBlueprintUserMessages: [BTS_State_C_0] 200.996292
+[2024.05.24-10.00.33:439][306]LogBlueprintUserMessages: [BTS_State_C_0] 290.832886
+[2024.05.24-10.00.33:965][369]LogBlueprintUserMessages: [BTS_State_C_0] 832.743713
+[2024.05.24-10.00.34:455][428]LogBlueprintUserMessages: [BTS_State_C_0] 1073.024902
+[2024.05.24-10.00.44:936][682]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.24-10.00.44:936][682]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartMap
+[2024.05.24-10.00.44:936][682]LogWorld: UWorld::CleanupWorld for StartMap, bSessionEnded=true, bCleanupResources=true
+[2024.05.24-10.00.44:936][682]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.24-10.00.44:940][682]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.05.24-10.00.44:949][682]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.24-10.00.44:998][682]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.24-10.00.44:999][682]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=46
+[2024.05.24-10.00.45:000][682]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=46
+[2024.05.24-10.00.45:007][682]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2024.05.24-10.00.45:075][683]LogPlayLevel: Display: Destroying online subsystem :Context_87
+[2024.05.24-10.01.24:648][726]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.05.24-10.01.24:657][726]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.05.24-10.01.24:657][726]PIE: New page: PIE session: StartMap (May 25, 2024, 4:01:24 AM)
+[2024.05.24-10.01.24:682][726]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartMap
+[2024.05.24-10.01.24:691][726]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008174s)
+[2024.05.24-10.01.24:691][726]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartMap.StartMap to /Game/Maps/UEDPIE_0_StartMap.StartMap (0.008200s)
+[2024.05.24-10.01.24:691][726]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.24-10.01.24:691][726]LogAIModule: Creating AISystem for world StartMap
+[2024.05.24-10.01.24:691][726]LogPlayLevel: PIE: World Init took: (0.000544s)
+[2024.05.24-10.01.24:742][726]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2024.05.24-10.01.24:749][726]LogAudio: Display: Creating Audio Device:                 Id: 47, Scope: Unique, Realtime: True
+[2024.05.24-10.01.24:749][726]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.05.24-10.01.24:749][726]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.05.24-10.01.24:749][726]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.05.24-10.01.24:749][726]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.05.24-10.01.24:749][726]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.05.24-10.01.24:749][726]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.05.24-10.01.24:749][726]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.05.24-10.01.24:749][726]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.05.24-10.01.24:749][726]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.05.24-10.01.24:749][726]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.05.24-10.01.24:749][726]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.05.24-10.01.24:751][726]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.05.24-10.01.24:775][726]LogAudioMixer: Display: Using Audio Hardware Device Q27G2SG4B+(NVIDIA High Definition Audio)
+[2024.05.24-10.01.24:775][726]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.05.24-10.01.24:775][726]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.05.24-10.01.24:775][726]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.05.24-10.01.24:775][726]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=47
+[2024.05.24-10.01.24:775][726]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=47
+[2024.05.24-10.01.24:777][726]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=47
+[2024.05.24-10.01.24:777][726]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=47
+[2024.05.24-10.01.24:777][726]LogInit: FAudioDevice initialized.
+[2024.05.24-10.01.24:777][726]LogAudio: Display: Audio Device (ID: 47) registered with world 'StartMap'.
+[2024.05.24-10.01.24:779][726]LogLoad: Game class is 'MyGameMode_C'
+[2024.05.24-10.01.24:780][726]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class Y_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.24-10.01.24:781][726]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class Y_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.24-10.01.24:781][726]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class Y_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.24-10.01.24:781][726]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class DogAnimation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.24-10.01.24:783][726]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartMap.StartMap up for play (max tick rate 0) at 2024.05.24-19.01.24
+[2024.05.24-10.01.24:786][726]LogWorld: Bringing up level for play took: 0.005803
+[2024.05.24-10.01.24:787][726]LogOnline: OSS: Created online subsystem instance for: :Context_88
+[2024.05.24-10.01.24:791][726]LogBlueprintUserMessages: [PlayerCharacter_C_0] 1200.0
+[2024.05.24-10.01.24:791][726]LogBlueprintUserMessages: [PlayerCharacter_C_0] 600.0
+[2024.05.24-10.01.24:791][726]LogBlueprintUserMessages: [PlayerCharacter_C_0] 3.0
+[2024.05.24-10.01.24:791][726]PIE: Server logged in
+[2024.05.24-10.01.24:792][726]PIE: Play in editor total start time 0.137 seconds.
+[2024.05.24-10.01.25:464][796]LogBlueprintUserMessages: [PlayerCharacter_C_0] BladeForPlayer0
+[2024.05.24-10.01.25:464][796]LogBlueprintUserMessages: [PlayerCharacter_C_0] 0.0
+[2024.05.24-10.01.25:464][796]LogBlueprintUserMessages: [PlayerCharacter_C_0] X=-2571.291 Y=-1011.235 Z=96.606
+[2024.05.24-10.01.27:147][998]LogBlueprintUserMessages: [BTS_State_C_0] 1189.322144
+[2024.05.24-10.01.27:705][ 65]LogBlueprintUserMessages: [BTS_State_C_0] 822.581787
+[2024.05.24-10.01.28:255][131]LogBlueprintUserMessages: [BTS_State_C_0] 585.678406
+[2024.05.24-10.01.28:830][200]LogBlueprintUserMessages: [BTS_State_C_0] 246.218094
+[2024.05.24-10.01.29:405][266]LogBlueprintUserMessages: [BTS_State_C_0] 71.214592
+[2024.05.24-10.01.29:406][266]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.29:421][268]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.29:438][270]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.29:455][272]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.29:474][274]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.29:502][276]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.29:518][278]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.29:535][280]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.29:552][282]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.29:569][284]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.29:585][286]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.29:601][288]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.29:618][290]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.29:635][292]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.29:652][294]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.29:668][296]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.29:685][298]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.29:702][300]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.29:718][302]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.29:735][304]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.29:752][306]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.29:768][308]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.29:785][310]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.29:802][312]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.29:818][314]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.29:944][329]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.29:961][331]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.29:978][333]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.29:994][335]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.30:010][337]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.30:027][339]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.30:044][341]LogBlueprintUserMessages: [BTS_State_C_0] 71.214592
+[2024.05.24-10.01.30:044][341]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.30:062][343]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.30:080][345]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.30:098][347]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.30:115][349]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.30:132][351]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.30:148][353]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.30:165][355]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.30:182][357]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.30:198][359]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.30:215][361]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.30:232][363]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.30:248][365]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.30:265][367]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.30:282][369]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.30:297][371]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.30:315][373]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.30:331][375]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.30:348][377]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.30:365][379]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.30:382][381]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.30:398][383]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.30:415][385]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.30:432][387]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.30:448][389]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.30:465][391]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.30:482][393]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.30:498][395]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.30:506][396]LogBlueprintUserMessages: [BTS_State_C_0] 71.214592
+[2024.05.24-10.01.30:515][397]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.30:532][399]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.30:548][401]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.30:564][403]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.30:582][405]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.30:598][407]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.30:615][409]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.30:632][411]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.30:649][413]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.30:667][415]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.30:686][417]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.30:704][419]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.30:720][421]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.30:735][423]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.30:752][425]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.30:769][427]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.30:786][429]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.30:802][431]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.30:819][433]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.30:836][435]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.30:853][437]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.30:869][439]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.30:890][441]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.30:907][443]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.30:923][445]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.30:940][447]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.30:957][449]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.30:973][451]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.30:990][453]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.31:099][466]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.31:117][468]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.31:135][470]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.31:150][472]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.31:167][474]LogBlueprintUserMessages: [BTS_State_C_0] 71.214592
+[2024.05.24-10.01.31:167][474]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.31:183][476]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.31:200][478]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.31:217][480]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.31:234][482]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.31:250][484]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.31:267][486]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.31:283][488]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.31:300][490]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.31:316][492]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.31:333][494]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.31:350][496]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.31:366][498]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.31:382][500]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.31:392][501]LogBlueprintUserMessages: [PlayerCharacter_C_0] BladeForPlayer0
+[2024.05.24-10.01.31:392][501]LogBlueprintUserMessages: [PlayerCharacter_C_0] 0.0
+[2024.05.24-10.01.31:392][501]LogBlueprintUserMessages: [PlayerCharacter_C_0] X=-1631.673 Y=-2139.808 Z=94.570
+[2024.05.24-10.01.31:400][502]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.31:417][504]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.31:432][506]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.31:450][508]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.31:467][510]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.31:484][512]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.31:500][514]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.31:517][516]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.31:533][518]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.31:551][520]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.31:566][522]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.31:584][524]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.31:600][526]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.31:617][528]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.31:625][529]LogBlueprintUserMessages: [BTS_State_C_0] 93.082603
+[2024.05.24-10.01.31:633][530]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.31:650][532]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.31:667][534]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.31:683][536]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.31:699][538]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.31:716][540]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.31:733][542]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.31:750][544]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.31:767][546]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.31:783][548]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.31:800][550]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.31:817][552]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.31:832][554]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.31:850][556]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.31:866][558]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.31:882][560]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.31:899][562]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.31:917][564]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.31:933][566]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.31:950][568]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.31:966][570]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.31:983][572]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.32:000][574]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.32:016][576]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.32:032][578]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.32:050][580]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.01.32:058][581]LogBlueprintUserMessages: [BTS_State_C_0] 393.756256
+[2024.05.24-10.01.32:525][637]LogBlueprintUserMessages: [BTS_State_C_0] 935.733154
+[2024.05.24-10.01.33:000][694]LogBlueprintUserMessages: [BTS_State_C_0] 1092.06543
+[2024.05.24-10.01.40:585][589]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.24-10.01.40:585][589]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartMap
+[2024.05.24-10.01.40:586][589]LogWorld: UWorld::CleanupWorld for StartMap, bSessionEnded=true, bCleanupResources=true
+[2024.05.24-10.01.40:586][589]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.24-10.01.40:590][589]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.05.24-10.01.40:597][589]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.24-10.01.40:647][589]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.05.24-10.01.40:647][589]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=47
+[2024.05.24-10.01.40:649][589]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=47
+[2024.05.24-10.01.40:652][589]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.24-10.01.40:656][589]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2024.05.24-10.01.40:712][590]LogPlayLevel: Display: Destroying online subsystem :Context_88
+[2024.05.24-10.02.15:922][549]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.05.24-10.02.15:930][549]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.05.24-10.02.15:930][549]PIE: New page: PIE session: StartMap (May 25, 2024, 4:02:15 AM)
+[2024.05.24-10.02.15:930][549]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartMap
+[2024.05.24-10.02.15:938][549]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008635s)
+[2024.05.24-10.02.15:938][549]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartMap.StartMap to /Game/Maps/UEDPIE_0_StartMap.StartMap (0.008661s)
+[2024.05.24-10.02.15:938][549]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.24-10.02.15:939][549]LogAIModule: Creating AISystem for world StartMap
+[2024.05.24-10.02.15:939][549]LogPlayLevel: PIE: World Init took: (0.000580s)
+[2024.05.24-10.02.15:992][549]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2024.05.24-10.02.15:997][549]LogAudio: Display: Creating Audio Device:                 Id: 48, Scope: Unique, Realtime: True
+[2024.05.24-10.02.15:997][549]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.05.24-10.02.15:997][549]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.05.24-10.02.15:997][549]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.05.24-10.02.15:997][549]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.05.24-10.02.15:997][549]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.05.24-10.02.15:997][549]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.05.24-10.02.15:997][549]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.05.24-10.02.15:997][549]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.05.24-10.02.15:997][549]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.05.24-10.02.15:997][549]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.05.24-10.02.15:997][549]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.05.24-10.02.15:999][549]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.05.24-10.02.16:024][549]LogAudioMixer: Display: Using Audio Hardware Device Q27G2SG4B+(NVIDIA High Definition Audio)
+[2024.05.24-10.02.16:024][549]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.05.24-10.02.16:024][549]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.05.24-10.02.16:024][549]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.05.24-10.02.16:025][549]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=48
+[2024.05.24-10.02.16:025][549]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=48
+[2024.05.24-10.02.16:026][549]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=48
+[2024.05.24-10.02.16:026][549]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=48
+[2024.05.24-10.02.16:026][549]LogInit: FAudioDevice initialized.
+[2024.05.24-10.02.16:026][549]LogAudio: Display: Audio Device (ID: 48) registered with world 'StartMap'.
+[2024.05.24-10.02.16:029][549]LogLoad: Game class is 'MyGameMode_C'
+[2024.05.24-10.02.16:030][549]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class Y_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.24-10.02.16:030][549]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class Y_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.24-10.02.16:032][549]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class Y_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.24-10.02.16:032][549]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class DogAnimation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.24-10.02.16:032][549]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartMap.StartMap up for play (max tick rate 0) at 2024.05.24-19.02.16
+[2024.05.24-10.02.16:036][549]LogWorld: Bringing up level for play took: 0.006253
+[2024.05.24-10.02.16:037][549]LogOnline: OSS: Created online subsystem instance for: :Context_89
+[2024.05.24-10.02.16:042][549]LogBlueprintUserMessages: [PlayerCharacter_C_0] 1200.0
+[2024.05.24-10.02.16:042][549]LogBlueprintUserMessages: [PlayerCharacter_C_0] 600.0
+[2024.05.24-10.02.16:042][549]LogBlueprintUserMessages: [PlayerCharacter_C_0] 3.0
+[2024.05.24-10.02.16:042][549]PIE: Server logged in
+[2024.05.24-10.02.16:043][549]PIE: Play in editor total start time 0.116 seconds.
+[2024.05.24-10.02.16:420][581]LogBlueprintUserMessages: [PlayerCharacter_C_0] BladeForPlayer0
+[2024.05.24-10.02.16:420][581]LogBlueprintUserMessages: [PlayerCharacter_C_0] 0.0
+[2024.05.24-10.02.16:420][581]LogBlueprintUserMessages: [PlayerCharacter_C_0] X=-2570.497 Y=-1010.638 Z=96.200
+[2024.05.24-10.02.20:425][ 56]LogBlueprintUserMessages: [BTS_State_C_0] 1106.362915
+[2024.05.24-10.02.20:900][113]LogBlueprintUserMessages: [BTS_State_C_0] 693.575378
+[2024.05.24-10.02.21:458][180]LogBlueprintUserMessages: [BTS_State_C_0] 729.447754
+[2024.05.24-10.02.22:008][246]LogBlueprintUserMessages: [BTS_State_C_0] 679.727173
+[2024.05.24-10.02.22:440][298]LogBlueprintUserMessages: [BTS_State_C_0] 497.820709
+[2024.05.24-10.02.22:950][359]LogBlueprintUserMessages: [BTS_State_C_0] 317.298218
+[2024.05.24-10.02.23:416][415]LogBlueprintUserMessages: [BTS_State_C_0] 117.699532
+[2024.05.24-10.02.23:417][415]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.02.23:433][417]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.02.23:450][419]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.02.23:466][421]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.02.23:483][423]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.02.23:499][425]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.02.23:516][427]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.02.23:532][429]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.02.23:550][431]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.02.23:566][433]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.02.23:583][435]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.02.23:600][437]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.02.23:616][439]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.02.23:633][441]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.02.23:649][443]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.02.23:666][445]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.02.23:683][447]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.02.23:699][449]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.02.23:716][451]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.02.23:733][453]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.02.23:750][455]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.02.23:766][457]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.02.23:783][459]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.02.23:800][461]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.02.23:816][463]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.02.23:832][465]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.02.23:850][467]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.02.23:865][469]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.02.23:882][471]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.02.23:900][473]LogBlueprintUserMessages: [BTS_State_C_0] 112.699371
+[2024.05.24-10.02.23:900][473]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.02.23:916][475]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.02.23:933][477]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.02.23:950][479]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.02.23:967][481]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.02.23:983][483]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.02.24:000][485]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.02.24:017][487]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.02.24:033][489]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.02.24:050][491]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.02.24:067][493]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.02.24:083][495]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.02.24:100][497]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.02.24:117][499]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.02.24:133][501]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.02.24:150][503]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.02.24:167][505]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.02.24:183][507]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.02.24:200][509]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.02.24:216][511]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.02.24:233][513]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.02.24:250][515]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.02.24:266][517]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.02.24:282][519]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.02.24:299][521]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.02.24:316][523]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.02.24:333][525]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.02.24:350][527]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.02.24:367][529]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.02.24:382][531]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.02.24:400][533]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.02.24:417][535]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.02.24:433][537]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.02.24:450][539]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.02.24:466][541]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.02.24:475][542]LogBlueprintUserMessages: [BTS_State_C_0] 370.2677
+[2024.05.24-10.02.25:032][609]LogBlueprintUserMessages: [BTS_State_C_0] 469.210541
+[2024.05.24-10.02.25:592][676]LogBlueprintUserMessages: [BTS_State_C_0] 468.210938
+[2024.05.24-10.02.26:140][742]LogBlueprintUserMessages: [BTS_State_C_0] 466.741058
+[2024.05.24-10.02.26:699][809]LogBlueprintUserMessages: [BTS_State_C_0] 461.017883
+[2024.05.24-10.02.27:150][863]LogBlueprintUserMessages: [BTS_State_C_0] 452.053467
+[2024.05.24-10.02.34:096][693]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.24-10.02.34:096][693]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartMap
+[2024.05.24-10.02.34:097][693]LogWorld: UWorld::CleanupWorld for StartMap, bSessionEnded=true, bCleanupResources=true
+[2024.05.24-10.02.34:097][693]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.24-10.02.34:102][693]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.05.24-10.02.34:109][693]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.24-10.02.34:160][693]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.24-10.02.34:160][693]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=48
+[2024.05.24-10.02.34:162][693]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=48
+[2024.05.24-10.02.34:170][693]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2024.05.24-10.02.34:239][694]LogPlayLevel: Display: Destroying online subsystem :Context_89
+[2024.05.24-10.04.29:486][304]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.24-10.04.29:515][304]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Dog/DogController" FILE="../../../../../Users/rhksg/Desktop/UnrealSkyrim2/Content/Character/Dog/DogController.uasset" SILENT=true
+[2024.05.24-10.04.29:524][304]LogSavePackage: Moving output files for package: /Game/Character/Dog/DogController
+[2024.05.24-10.04.29:525][304]LogSavePackage: Moving '../../../../../Users/rhksg/Desktop/UnrealSkyrim2/Saved/DogControllerFF189CD6420B7DF01CB946960840A9C8.tmp' to '../../../../../Users/rhksg/Desktop/UnrealSkyrim2/Content/Character/Dog/DogController.uasset'
+[2024.05.24-10.04.29:532][304]LogFileHelpers: InternalPromptForCheckoutAndSave took 45 ms (total: 800 ms)
+[2024.05.24-10.04.29:543][304]AssetCheck: New page: Asset Save: DogController
+[2024.05.24-10.04.29:543][304]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Character/Dog/DogController.DogController
+[2024.05.24-10.06.06:781][786]BlueprintLog: New page: Compile BTT_Attack_Dog
+[2024.05.24-10.06.06:853][786]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2024.05.24-10.06.09:544][ 98]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.05.24-10.06.09:553][ 98]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.05.24-10.06.09:553][ 98]LogPlayLevel: [PlayLevel] Compiling BTS_State before play...
+[2024.05.24-10.06.09:632][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2024.05.24-10.06.09:636][ 98]LogPlayLevel: PlayLevel: Blueprint regeneration took 84 ms (1 blueprints)
+[2024.05.24-10.06.09:637][ 98]PIE: New page: PIE session: StartMap (May 25, 2024, 4:06:09 AM)
+[2024.05.24-10.06.09:637][ 98]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartMap
+[2024.05.24-10.06.09:645][ 98]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008156s)
+[2024.05.24-10.06.09:645][ 98]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartMap.StartMap to /Game/Maps/UEDPIE_0_StartMap.StartMap (0.008180s)
+[2024.05.24-10.06.09:645][ 98]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.24-10.06.09:646][ 98]LogAIModule: Creating AISystem for world StartMap
+[2024.05.24-10.06.09:646][ 98]LogPlayLevel: PIE: World Init took: (0.000687s)
+[2024.05.24-10.06.09:693][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2024.05.24-10.06.09:695][ 98]LogAudio: Display: Creating Audio Device:                 Id: 49, Scope: Unique, Realtime: True
+[2024.05.24-10.06.09:695][ 98]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.05.24-10.06.09:695][ 98]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.05.24-10.06.09:695][ 98]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.05.24-10.06.09:695][ 98]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.05.24-10.06.09:695][ 98]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.05.24-10.06.09:695][ 98]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.05.24-10.06.09:695][ 98]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.05.24-10.06.09:695][ 98]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.05.24-10.06.09:695][ 98]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.05.24-10.06.09:695][ 98]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.05.24-10.06.09:695][ 98]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.05.24-10.06.09:697][ 98]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.05.24-10.06.09:722][ 98]LogAudioMixer: Display: Using Audio Hardware Device Q27G2SG4B+(NVIDIA High Definition Audio)
+[2024.05.24-10.06.09:722][ 98]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.05.24-10.06.09:722][ 98]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.05.24-10.06.09:722][ 98]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.05.24-10.06.09:722][ 98]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=49
+[2024.05.24-10.06.09:722][ 98]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=49
+[2024.05.24-10.06.09:723][ 98]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=49
+[2024.05.24-10.06.09:723][ 98]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=49
+[2024.05.24-10.06.09:723][ 98]LogInit: FAudioDevice initialized.
+[2024.05.24-10.06.09:723][ 98]LogAudio: Display: Audio Device (ID: 49) registered with world 'StartMap'.
+[2024.05.24-10.06.09:726][ 98]LogLoad: Game class is 'MyGameMode_C'
+[2024.05.24-10.06.09:727][ 98]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class Y_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.24-10.06.09:728][ 98]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class Y_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.24-10.06.09:728][ 98]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class Y_Animation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.24-10.06.09:729][ 98]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class DogAnimation_C already exists. Remove duplicates from the animation graph for this class.
+[2024.05.24-10.06.09:729][ 98]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartMap.StartMap up for play (max tick rate 0) at 2024.05.24-19.06.09
+[2024.05.24-10.06.09:733][ 98]LogWorld: Bringing up level for play took: 0.006326
+[2024.05.24-10.06.09:734][ 98]LogOnline: OSS: Created online subsystem instance for: :Context_90
+[2024.05.24-10.06.09:739][ 98]LogBlueprintUserMessages: [PlayerCharacter_C_0] 1200.0
+[2024.05.24-10.06.09:739][ 98]LogBlueprintUserMessages: [PlayerCharacter_C_0] 600.0
+[2024.05.24-10.06.09:739][ 98]LogBlueprintUserMessages: [PlayerCharacter_C_0] 3.0
+[2024.05.24-10.06.09:739][ 98]PIE: Server logged in
+[2024.05.24-10.06.09:740][ 98]PIE: Play in editor total start time 0.19 seconds.
+[2024.05.24-10.06.09:993][119]LogBlueprintUserMessages: [PlayerCharacter_C_0] BladeForPlayer0
+[2024.05.24-10.06.09:993][119]LogBlueprintUserMessages: [PlayerCharacter_C_0] 0.0
+[2024.05.24-10.06.09:993][119]LogBlueprintUserMessages: [PlayerCharacter_C_0] X=-2573.047 Y=-1010.347 Z=98.518
+[2024.05.24-10.06.14:026][603]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.14:042][605]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.14:059][607]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.14:076][609]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.14:092][611]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.14:109][613]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.14:125][615]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.14:142][617]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.14:158][619]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.14:175][621]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.14:192][623]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.14:209][625]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.14:225][627]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.14:242][629]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.14:259][631]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.14:275][633]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.14:292][635]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.14:308][637]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.14:325][639]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.14:342][641]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.14:359][643]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.14:376][645]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.14:392][647]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.14:409][649]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.14:425][651]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.14:442][653]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.14:459][655]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.14:476][657]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.14:492][659]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.14:509][661]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.14:526][663]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.14:543][665]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.14:559][667]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.14:575][669]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.14:592][671]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.14:609][673]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.14:626][675]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.14:642][677]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.14:659][679]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.14:676][681]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.14:692][683]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.14:709][685]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.14:726][687]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.14:742][689]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.14:759][691]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.14:776][693]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.14:793][695]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.14:809][697]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.14:826][699]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.14:842][701]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.14:859][703]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.14:876][705]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.14:892][707]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.14:908][709]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.14:925][711]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.14:942][713]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.14:958][715]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.14:976][717]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.14:992][719]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.15:009][721]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.15:026][723]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.15:043][725]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.15:059][727]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.15:075][729]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.15:092][731]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.15:109][733]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.15:125][735]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.15:142][737]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.15:158][739]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.15:175][741]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.15:192][743]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.15:208][745]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.15:226][747]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.15:242][749]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.15:259][751]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.15:276][753]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.15:292][755]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.15:309][757]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.15:325][759]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.15:342][761]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.15:359][763]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.15:375][765]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.15:392][767]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.15:409][769]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.15:425][771]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.15:442][773]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.15:459][775]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.15:476][777]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.15:492][779]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.15:510][781]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.15:526][783]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.15:542][785]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.15:559][787]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.15:576][789]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.15:592][791]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.15:609][793]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.15:625][795]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.15:642][797]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.15:659][799]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.15:676][801]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.15:693][803]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.15:709][805]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.15:726][807]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.15:742][809]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.15:758][811]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.15:776][813]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.15:792][815]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.15:808][817]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.15:825][819]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.15:842][821]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.15:859][823]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.15:875][825]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.15:892][827]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.15:909][829]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.15:926][831]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.15:942][833]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.15:958][835]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.15:975][837]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.15:992][839]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.16:009][841]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.16:025][843]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.16:042][845]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.16:059][847]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.16:076][849]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.16:092][851]LogBlueprintUserMessages: [BTT_Attack_Dog_C_0] Hello
+[2024.05.24-10.06.20:186][339]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.24-10.06.20:186][339]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartMap
+[2024.05.24-10.06.20:187][339]LogWorld: UWorld::CleanupWorld for StartMap, bSessionEnded=true, bCleanupResources=true
+[2024.05.24-10.06.20:187][339]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.24-10.06.20:194][339]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.05.24-10.06.20:201][339]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.24-10.06.20:252][339]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.24-10.06.20:252][339]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=49
+[2024.05.24-10.06.20:253][339]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=49
+[2024.05.24-10.06.20:262][339]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2024.05.24-10.06.20:333][340]LogPlayLevel: Display: Destroying online subsystem :Context_90
+[2024.05.24-10.07.46:385][363]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2024.05.24-10.07.47:408][363]LogSlate: Window 'Save Content' being destroyed
+[2024.05.24-10.07.47:431][363]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.24-10.07.47:457][363]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI_Tree/Dog/BTS_State" FILE="../../../../../Users/rhksg/Desktop/UnrealSkyrim2/Content/AI_Tree/Dog/BTS_State.uasset" SILENT=true
+[2024.05.24-10.07.47:464][363]LogSavePackage: Moving output files for package: /Game/AI_Tree/Dog/BTS_State
+[2024.05.24-10.07.47:464][363]LogSavePackage: Moving '../../../../../Users/rhksg/Desktop/UnrealSkyrim2/Saved/BTS_State72F21D4240D0F6C0BA6ABC81D5AD4F9A.tmp' to '../../../../../Users/rhksg/Desktop/UnrealSkyrim2/Content/AI_Tree/Dog/BTS_State.uasset'
+[2024.05.24-10.07.47:465][363]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI_Tree/Dog/BTT_Attack_Dog" FILE="../../../../../Users/rhksg/Desktop/UnrealSkyrim2/Content/AI_Tree/Dog/BTT_Attack_Dog.uasset" SILENT=true
+[2024.05.24-10.07.47:470][363]LogSavePackage: Moving output files for package: /Game/AI_Tree/Dog/BTT_Attack_Dog
+[2024.05.24-10.07.47:471][363]LogSavePackage: Moving '../../../../../Users/rhksg/Desktop/UnrealSkyrim2/Saved/BTT_Attack_Dog5F30564B41E277B6A2C7A4BED455A067.tmp' to '../../../../../Users/rhksg/Desktop/UnrealSkyrim2/Content/AI_Tree/Dog/BTT_Attack_Dog.uasset'
+[2024.05.24-10.07.47:478][363]LogFileHelpers: InternalPromptForCheckoutAndSave took 46 ms (total: 846 ms)
+[2024.05.24-10.07.47:486][363]AssetCheck: New page: Asset Save: multiple assets
+[2024.05.24-10.07.47:486][363]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/AI_Tree/Dog/BTS_State.BTS_State
+[2024.05.24-10.07.47:486][363]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/AI_Tree/Dog/BTT_Attack_Dog.BTT_Attack_Dog
