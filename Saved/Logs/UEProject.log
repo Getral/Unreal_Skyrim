@@ -14808,3 +14808,43 @@ LogConfig: Set CVar [[r.Occlusion.SingleRHIThreadStall:1]]
 [2024.05.27-04.35.52:579][694]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2024.05.27-04.35.52:586][694]LogUObjectHash: Compacting FUObjectHashTables data took   3.75ms
 [2024.05.27-04.35.52:694][695]LogPlayLevel: Display: Destroying online subsystem :Context_92
+[2024.05.27-04.36.11:423][933]LogUObjectHash: Compacting FUObjectHashTables data took   3.91ms
+[2024.05.27-04.36.12:151][933]LogSlate: Window '콘텐츠 저장' being destroyed
+[2024.05.27-04.36.12:164][933]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.27-04.36.12:221][933]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/StartMap" FILE="D:/YP/Skyrim/Unreal_Skyrim/Content/Maps/StartMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.05.27-04.36.12:409][933]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2024.05.27-04.36.12:462][933]LogSavePackage: Moving output files for package: /Game/Maps/StartMap
+[2024.05.27-04.36.12:463][933]LogSavePackage: Moving 'D:/YP/Skyrim/Unreal_Skyrim/Saved/StartMapCEA9498A4BC6C02AF69CC59929FCDF2C.tmp' to 'D:/YP/Skyrim/Unreal_Skyrim/Content/Maps/StartMap.umap'
+[2024.05.27-04.36.12:553][933]LogFileHelpers: Saving map 'StartMap' took 0.333
+[2024.05.27-04.36.12:583][933]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/HUD/Inventory/InventoryHUD" FILE="D:/YP/Skyrim/Unreal_Skyrim/Content/UI/HUD/Inventory/InventoryHUD.uasset" SILENT=true
+[2024.05.27-04.36.12:786][933]LogSavePackage: Moving output files for package: /Game/UI/HUD/Inventory/InventoryHUD
+[2024.05.27-04.36.12:788][933]LogSavePackage: Moving 'D:/YP/Skyrim/Unreal_Skyrim/Saved/InventoryHUD0ECBF6EF4EFA20D6C96CA9BCF00D6D41.tmp' to 'D:/YP/Skyrim/Unreal_Skyrim/Content/UI/HUD/Inventory/InventoryHUD.uasset'
+[2024.05.27-04.36.12:790][933]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/HUD/Inventory/ItemPreview" FILE="D:/YP/Skyrim/Unreal_Skyrim/Content/UI/HUD/Inventory/ItemPreview.uasset" SILENT=true
+[2024.05.27-04.36.12:807][933]LogSavePackage: Moving output files for package: /Game/UI/HUD/Inventory/ItemPreview
+[2024.05.27-04.36.12:808][933]LogSavePackage: Moving 'D:/YP/Skyrim/Unreal_Skyrim/Saved/ItemPreview8884E10D4A44FF1665D84A9F84B8B364.tmp' to 'D:/YP/Skyrim/Unreal_Skyrim/Content/UI/HUD/Inventory/ItemPreview.uasset'
+[2024.05.27-04.36.12:818][933]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/HUD/Inventory/ItemUI" FILE="D:/YP/Skyrim/Unreal_Skyrim/Content/UI/HUD/Inventory/ItemUI.uasset" SILENT=true
+[2024.05.27-04.36.12:904][933]LogSavePackage: Moving output files for package: /Game/UI/HUD/Inventory/ItemUI
+[2024.05.27-04.36.12:905][933]LogSavePackage: Moving 'D:/YP/Skyrim/Unreal_Skyrim/Saved/ItemUI2E91D8B4421B1241BC1CF182E0F7BDF4.tmp' to 'D:/YP/Skyrim/Unreal_Skyrim/Content/UI/HUD/Inventory/ItemUI.uasset'
+[2024.05.27-04.36.12:908][933]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/_MainPlayer/MainGameMode" FILE="D:/YP/Skyrim/Unreal_Skyrim/Content/Character/_MainPlayer/MainGameMode.uasset" SILENT=true
+[2024.05.27-04.36.12:916][933]LogSavePackage: Moving output files for package: /Game/Character/_MainPlayer/MainGameMode
+[2024.05.27-04.36.12:917][933]LogSavePackage: Moving 'D:/YP/Skyrim/Unreal_Skyrim/Saved/MainGameModeB112D683417E72EDEC634099BFB3E522.tmp' to 'D:/YP/Skyrim/Unreal_Skyrim/Content/Character/_MainPlayer/MainGameMode.uasset'
+[2024.05.27-04.36.12:984][933]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/_MainPlayer/MainPlayer" FILE="D:/YP/Skyrim/Unreal_Skyrim/Content/Character/_MainPlayer/MainPlayer.uasset" SILENT=true
+[2024.05.27-04.36.13:247][933]LogSavePackage: Moving output files for package: /Game/Character/_MainPlayer/MainPlayer
+[2024.05.27-04.36.13:248][933]LogSavePackage: Moving 'D:/YP/Skyrim/Unreal_Skyrim/Saved/MainPlayerE9376FEA4D352B038D18BD8FEC789135.tmp' to 'D:/YP/Skyrim/Unreal_Skyrim/Content/Character/_MainPlayer/MainPlayer.uasset'
+[2024.05.27-04.36.13:269][933]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/_MainPlayer/MainPlayer_Anim" FILE="D:/YP/Skyrim/Unreal_Skyrim/Content/Character/_MainPlayer/MainPlayer_Anim.uasset" SILENT=true
+[2024.05.27-04.36.13:394][933]LogSavePackage: Moving output files for package: /Game/Character/_MainPlayer/MainPlayer_Anim
+[2024.05.27-04.36.13:396][933]LogSavePackage: Moving 'D:/YP/Skyrim/Unreal_Skyrim/Saved/MainPlayer_Anim153E7E9840EC7212A6CCEBAA9991DD0B.tmp' to 'D:/YP/Skyrim/Unreal_Skyrim/Content/Character/_MainPlayer/MainPlayer_Anim.uasset'
+[2024.05.27-04.36.13:399][933]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/HUD/SkyHUD" FILE="D:/YP/Skyrim/Unreal_Skyrim/Content/UI/HUD/SkyHUD.uasset" SILENT=true
+[2024.05.27-04.36.13:448][933]LogSavePackage: Moving output files for package: /Game/UI/HUD/SkyHUD
+[2024.05.27-04.36.13:449][933]LogSavePackage: Moving 'D:/YP/Skyrim/Unreal_Skyrim/Saved/SkyHUDB117F14C44166486AE7441BAEAB56087.tmp' to 'D:/YP/Skyrim/Unreal_Skyrim/Content/UI/HUD/SkyHUD.uasset'
+[2024.05.27-04.36.13:461][933]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.29 sec (total: 2.95 sec)
+[2024.05.27-04.36.13:521][933]AssetCheck: New page: 에셋 저장:  다수의 에셋
+[2024.05.27-04.36.13:522][933]LogContentValidation: Display: /Script/Engine.Blueprint /Game/UI/HUD/Inventory/ItemPreview.ItemPreview 유효성 검사 중
+[2024.05.27-04.36.13:522][933]LogContentValidation: Display: /Script/Engine.World /Game/Maps/StartMap.StartMap 유효성 검사 중
+[2024.05.27-04.36.13:522][933]LogContentValidation: Display: /Script/UMGEditor.WidgetBlueprint /Game/UI/HUD/Inventory/ItemUI.ItemUI 유효성 검사 중
+[2024.05.27-04.36.13:523][933]LogContentValidation: Display: /Script/UMGEditor.WidgetBlueprint /Game/UI/HUD/Inventory/InventoryHUD.InventoryHUD 유효성 검사 중
+[2024.05.27-04.36.13:526][933]LogContentValidation: Display: /Script/Engine.Blueprint /Game/UI/HUD/SkyHUD.SkyHUD 유효성 검사 중
+[2024.05.27-04.36.13:527][933]LogContentValidation: Display: /Script/Engine.Blueprint /Game/Character/_MainPlayer/MainPlayer.MainPlayer 유효성 검사 중
+[2024.05.27-04.36.13:528][933]LogContentValidation: Display: /Script/Engine.AnimBlueprint /Game/Character/_MainPlayer/MainPlayer_Anim.MainPlayer_Anim 유효성 검사 중
+[2024.05.27-04.36.13:528][933]LogContentValidation: Display: /Script/Engine.Blueprint /Game/Character/_MainPlayer/MainGameMode.MainGameMode 유효성 검사 중
+[2024.05.27-04.36.13:555][934]LogAutomationController: Ignoring very large delta of 2.31 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
