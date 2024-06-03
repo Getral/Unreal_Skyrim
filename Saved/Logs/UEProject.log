@@ -4870,3 +4870,24 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.06.03-06.43.16:111][344]AssetCheck: New page: 에셋 저장:  다수의 에셋
 [2024.06.03-06.43.16:111][344]LogContentValidation: Display: /Script/Engine.World /Game/Maps/StartMap.StartMap 유효성 검사 중
 [2024.06.03-06.43.16:111][344]LogContentValidation: Display: /Script/Engine.Blueprint /Game/Character/_MainPlayer/MainPlayer_2.MainPlayer_2 유효성 검사 중
+[2024.06.03-06.44.53:027][ 57]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.03-06.44.53:129][ 57]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/_MainPlayer/MainPlayer_2" FILE="D:/YP/Skyrim/Unreal_Skyrim/Content/Character/_MainPlayer/MainPlayer_2.uasset" SILENT=true
+[2024.06.03-06.44.53:439][ 57]LogSavePackage: Moving output files for package: /Game/Character/_MainPlayer/MainPlayer_2
+[2024.06.03-06.44.53:441][ 57]LogSavePackage: Moving 'D:/YP/Skyrim/Unreal_Skyrim/Saved/MainPlayer_22F484B2440187D62643B1F96A3353CC5.tmp' to 'D:/YP/Skyrim/Unreal_Skyrim/Content/Character/_MainPlayer/MainPlayer_2.uasset'
+[2024.06.03-06.44.53:453][ 57]LogFileHelpers: InternalPromptForCheckoutAndSave took 425 ms (total: 7.52 sec)
+[2024.06.03-06.44.53:467][ 57]AssetCheck: New page: 에셋 저장:  MainPlayer_2
+[2024.06.03-06.44.53:467][ 57]LogContentValidation: Display: /Script/Engine.Blueprint /Game/Character/_MainPlayer/MainPlayer_2.MainPlayer_2 유효성 검사 중
+[2024.06.03-06.44.55:266][269]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.03-06.44.55:323][269]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/HUD/SkyHUD" FILE="D:/YP/Skyrim/Unreal_Skyrim/Content/UI/HUD/SkyHUD.uasset" SILENT=true
+[2024.06.03-06.44.55:372][269]LogSavePackage: Moving output files for package: /Game/UI/HUD/SkyHUD
+[2024.06.03-06.44.55:374][269]LogSavePackage: Moving 'D:/YP/Skyrim/Unreal_Skyrim/Saved/SkyHUD3FA2728746514B3F391B05981304F48B.tmp' to 'D:/YP/Skyrim/Unreal_Skyrim/Content/UI/HUD/SkyHUD.uasset'
+[2024.06.03-06.44.55:385][269]LogFileHelpers: InternalPromptForCheckoutAndSave took 119 ms (total: 7.64 sec)
+[2024.06.03-06.44.55:396][269]AssetCheck: New page: 에셋 저장:  SkyHUD
+[2024.06.03-06.44.55:396][269]LogContentValidation: Display: /Script/Engine.Blueprint /Game/UI/HUD/SkyHUD.SkyHUD 유효성 검사 중
+[2024.06.03-06.46.19:980][808]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.03-06.46.20:045][808]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/HUD/SkyHUD" FILE="D:/YP/Skyrim/Unreal_Skyrim/Content/UI/HUD/SkyHUD.uasset" SILENT=true
+[2024.06.03-06.46.20:316][808]LogSavePackage: Moving output files for package: /Game/UI/HUD/SkyHUD
+[2024.06.03-06.46.20:317][808]LogSavePackage: Moving 'D:/YP/Skyrim/Unreal_Skyrim/Saved/SkyHUD78D9D9A649487088EBCA11B9EE47B1B8.tmp' to 'D:/YP/Skyrim/Unreal_Skyrim/Content/UI/HUD/SkyHUD.uasset'
+[2024.06.03-06.46.20:331][808]LogFileHelpers: InternalPromptForCheckoutAndSave took 351 ms (total: 7.99 sec)
+[2024.06.03-06.46.20:354][808]AssetCheck: New page: 에셋 저장:  SkyHUD
+[2024.06.03-06.46.20:354][808]LogContentValidation: Display: /Script/Engine.Blueprint /Game/UI/HUD/SkyHUD.SkyHUD 유효성 검사 중
