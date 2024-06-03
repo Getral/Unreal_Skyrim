@@ -1829,3 +1829,561 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.06.03-10.45.47:075][894]AssetCheck: New page: 에셋 저장:  다수의 에셋
 [2024.06.03-10.45.47:075][894]LogContentValidation: Display: /Script/UMGEditor.WidgetBlueprint /Game/UI/HUD/Inventory/InventoryHUD.InventoryHUD 유효성 검사 중
 [2024.06.03-10.45.47:077][894]LogContentValidation: Display: /Script/Engine.World /Game/Maps/StartMap.StartMap 유효성 검사 중
+[2024.06.03-10.51.58:732][230]LogDerivedDataCache: C:/Users/dragonmark/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:08.437 and deleted 0 files with total size 0 MiB. Scanned 4764 files in 4730 folders with total size 157 MiB.
+[2024.06.03-10.52.05:540][591]LogContentBrowser: Deferred new asset folder creation: 새 폴더
+[2024.06.03-10.52.05:558][591]LogContentBrowser: Creating deferred item: 새 폴더
+[2024.06.03-10.52.05:579][592]LogContentBrowser: Renaming the item being created (Deferred Item: 새 폴더).
+[2024.06.03-10.52.06:709][659]LogContentBrowser: Attempting asset rename: 새 폴더 -> NPC
+[2024.06.03-10.52.06:710][659]LogContentBrowser: End creating deferred item 새 폴더
+[2024.06.03-10.52.24:233][397]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.06.03-10.52.24:234][397]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.06.03-10.52.24:234][397]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.06.03-10.52.30:635][397]LogSlate: Window '부모 클래스 선택' being destroyed
+[2024.06.03-10.52.30:658][397]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2024.06.03-10.52.30:666][397]LogContentBrowser: Creating deferred item: NewBlueprint
+[2024.06.03-10.52.30:706][399]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2024.06.03-10.52.38:637][864]LogContentBrowser: Attempting asset rename: NewBlueprint -> NPC
+[2024.06.03-10.52.38:649][864]LogContentBrowser: End creating deferred item NewBlueprint
+[2024.06.03-10.52.39:027][883]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Character/NPC/NPC.NPC
+[2024.06.03-10.52.39:028][883]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.03-10.52.40:030][883]LogViewport: Scene viewport resized to 988x589, mode Windowed.
+[2024.06.03-10.52.41:767][930]LogViewport: Scene viewport resized to 985x607, mode Windowed.
+[2024.06.03-10.52.41:942][932]LogViewport: Scene viewport resized to 467x230, mode Windowed.
+[2024.06.03-10.52.42:326][942]LogViewport: Scene viewport resized to 1525x981, mode Windowed.
+[2024.06.03-10.52.42:873][965]LogSlate: Window 'NPC' being destroyed
+[2024.06.03-10.52.52:113][531]LogSlate: Took 0.000669 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.06.03-10.52.55:112][652]LogShaderCompilers: Display: ================================================
+[2024.06.03-10.52.55:112][652]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.06.03-10.52.55:112][652]LogShaderCompilers: Display: Total job queries 207, among them cache hits 22 (10.63%)
+[2024.06.03-10.52.55:112][652]LogShaderCompilers: Display: Tracking 184 distinct input hashes that result in 101 distinct outputs (54.89%)
+[2024.06.03-10.52.55:112][652]LogShaderCompilers: Display: RAM used: 1.39 MB (0.00 GB) of 1228.80 MB (1.20 GB) budget. Usage: 0.11%
+[2024.06.03-10.52.55:112][652]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.06.03-10.52.55:112][652]LogShaderCompilers: Display: Shaders Compiled: 1
+[2024.06.03-10.52.55:112][652]LogShaderCompilers: Display: Jobs assigned 2, completed 1 (50.00%)
+[2024.06.03-10.52.55:112][652]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.06 s
+[2024.06.03-10.52.55:112][652]LogShaderCompilers: Display: Job execution time: average 2.78 s, max 2.78 s
+[2024.06.03-10.52.55:112][652]LogShaderCompilers: Display: Job life time (pending + execution): average 2.84 s, max 2.84
+[2024.06.03-10.52.55:112][652]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 2.84 s
+[2024.06.03-10.52.55:112][652]LogShaderCompilers: Display: Jobs were issued in 2 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.06.03-10.52.55:112][652]LogShaderCompilers: Display: Average processing rate: 0.35 jobs/sec
+[2024.06.03-10.52.55:112][652]LogShaderCompilers: Display: Total thread time: 1.59 s
+[2024.06.03-10.52.55:112][652]LogShaderCompilers: Display: Total thread preprocess time: 0.09 s
+[2024.06.03-10.52.55:113][652]LogShaderCompilers: Display: Percentage time preprocessing: 5.56%
+[2024.06.03-10.52.55:113][652]LogShaderCompilers: Display: Effective parallelization: 0.56 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2024.06.03-10.52.55:113][652]LogShaderCompilers: Display: Top 1 most expensive shader types by average time:
+[2024.06.03-10.52.55:113][652]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 1.59 sec, max 1.59 sec, min 1.59 sec)
+[2024.06.03-10.52.55:113][652]LogShaderCompilers: Display: Top 1 shader types by total compile time:
+[2024.06.03-10.52.55:113][652]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 100.00% of total time (compiled    1 times, average 1.59 sec, max 1.59 sec, min 1.59 sec)
+[2024.06.03-10.52.55:113][652]LogShaderCompilers: Display: ================================================
+[2024.06.03-10.53.08:907][390]BlueprintLog: New page: NPC 컴파일
+[2024.06.03-10.53.09:108][390]LogUObjectHash: Compacting FUObjectHashTables data took   4.16ms
+[2024.06.03-10.53.10:515][432]LogDebuggerCommands: Repeating last play command: 선택된 뷰포트
+[2024.06.03-10.53.10:782][432]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.03-10.53.10:782][432]PIE: New page: PIE 세션: StartMap (2024. 6. 4. 오전 4:53:10)
+[2024.06.03-10.53.10:782][432]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartMap
+[2024.06.03-10.53.10:804][432]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022202s)
+[2024.06.03-10.53.10:804][432]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartMap.StartMap to /Game/Maps/UEDPIE_0_StartMap.StartMap (0.022240s)
+[2024.06.03-10.53.10:805][432]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.03-10.53.10:805][432]LogAIModule: Creating AISystem for world StartMap
+[2024.06.03-10.53.10:805][432]LogPlayLevel: PIE: World Init took: (0.001134s)
+[2024.06.03-10.53.10:966][432]LogUObjectHash: Compacting FUObjectHashTables data took   4.83ms
+[2024.06.03-10.53.10:970][432]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2024.06.03-10.53.10:970][432]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.03-10.53.10:970][432]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.03-10.53.10:970][432]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.03-10.53.10:970][432]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.03-10.53.10:970][432]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.06.03-10.53.10:970][432]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.06.03-10.53.10:970][432]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.06.03-10.53.10:970][432]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.03-10.53.10:971][432]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.03-10.53.10:971][432]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.03-10.53.10:972][432]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.03-10.53.10:976][432]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.03-10.53.11:282][432]LogAudioMixer: Display: Using Audio Hardware Device 스피커(ABKO N800)
+[2024.06.03-10.53.11:283][432]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.03-10.53.11:283][432]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.03-10.53.11:283][432]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.03-10.53.11:284][432]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2024.06.03-10.53.11:284][432]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2024.06.03-10.53.11:286][432]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2024.06.03-10.53.11:286][432]LogInit: FAudioDevice initialized.
+[2024.06.03-10.53.11:286][432]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2024.06.03-10.53.11:286][432]LogAudio: Display: Audio Device (ID: 4) registered with world 'StartMap'.
+[2024.06.03-10.53.11:290][432]LogLoad: Game class is 'MainGameMode_C'
+[2024.06.03-10.53.11:291][432]AnimBlueprintLog: Warning: 슬롯노드: Y_Animation_C 애니메이션 인스턴트 클래스의 'DefaultSlot'는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2024.06.03-10.53.11:293][432]AnimBlueprintLog: Warning: 슬롯노드: Y_Animation_C 애니메이션 인스턴트 클래스의 'DefaultSlot'는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2024.06.03-10.53.11:294][432]AnimBlueprintLog: Warning: 슬롯노드: Y_Animation_C 애니메이션 인스턴트 클래스의 'DefaultSlot'는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2024.06.03-10.53.11:298][432]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartMap.StartMap up for play (max tick rate 0) at 2024.06.03-19.53.11
+[2024.06.03-10.53.11:302][432]LogWorld: Bringing up level for play took: 0.011886
+[2024.06.03-10.53.11:306][432]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2024.06.03-10.53.11:310][432]LogPhysics: Warning: Scale for /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.06.03-10.53.11:310][432]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_0.StaticMesh' 
+[2024.06.03-10.53.11:310][432]LogPhysics: Warning: Scale for /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_4.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.06.03-10.53.11:310][432]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_4.StaticMesh' 
+[2024.06.03-10.53.11:311][432]LogPhysics: Warning: Scale for /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_7.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.06.03-10.53.11:311][432]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_7.StaticMesh' 
+[2024.06.03-10.53.11:311][432]LogPhysics: Warning: Scale for /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_8.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.06.03-10.53.11:311][432]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_8.StaticMesh' 
+[2024.06.03-10.53.11:311][432]LogPhysics: Warning: Scale for /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_9.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.06.03-10.53.11:311][432]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_9.StaticMesh' 
+[2024.06.03-10.53.11:311][432]LogPhysics: Warning: Scale for /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_10.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.06.03-10.53.11:311][432]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_10.StaticMesh' 
+[2024.06.03-10.53.11:312][432]LogPhysics: Warning: Scale for /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_12.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.06.03-10.53.11:312][432]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_12.StaticMesh' 
+[2024.06.03-10.53.11:312][432]LogPhysics: Warning: Scale for /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Potion_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.06.03-10.53.11:312][432]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Potion_C_0.StaticMesh' 
+[2024.06.03-10.53.11:312][432]LogPhysics: Warning: Scale for /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Potion_C_2.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.06.03-10.53.11:312][432]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Potion_C_2.StaticMesh' 
+[2024.06.03-10.53.11:313][432]LogPhysics: Warning: Scale for /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Potion_C_3.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.06.03-10.53.11:313][432]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Potion_C_3.StaticMesh' 
+[2024.06.03-10.53.11:318][432]LogBlueprintUserMessages: [MainPlayer_2_C_0] change Unarmed
+[2024.06.03-10.53.11:318][432]PIE: 서버가 로그인했습니다.
+[2024.06.03-10.53.11:320][432]PIE: 에디터에서 플레이 총 시작 시간 0.538초입니다.
+[2024.06.03-10.53.11:320][432]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_0.StaticMesh, from: Addition to navoctree)
+[2024.06.03-10.53.11:320][432]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_4.StaticMesh, from: Addition to navoctree)
+[2024.06.03-10.53.11:320][432]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_7.StaticMesh, from: Addition to navoctree)
+[2024.06.03-10.53.11:320][432]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_8.StaticMesh, from: Addition to navoctree)
+[2024.06.03-10.53.11:320][432]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_9.StaticMesh, from: Addition to navoctree)
+[2024.06.03-10.53.11:320][432]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_10.StaticMesh, from: Addition to navoctree)
+[2024.06.03-10.53.11:320][432]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_12.StaticMesh, from: Addition to navoctree)
+[2024.06.03-10.53.11:321][432]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Potion_C_0.StaticMesh, from: Addition to navoctree)
+[2024.06.03-10.53.11:321][432]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Potion_C_2.StaticMesh, from: Addition to navoctree)
+[2024.06.03-10.53.11:321][432]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Potion_C_3.StaticMesh, from: Addition to navoctree)
+[2024.06.03-10.53.12:415][464]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Character/NPC/NPC.NPC_C
+[2024.06.03-10.53.12:415][464]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Character/NPC/NPC.NPC_C
+[2024.06.03-10.53.12:417][464]LogActorFactory: Actor Factory spawned Blueprint /Game/Character/NPC/NPC.NPC as actor: NPC_C /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.NPC_C_0
+[2024.06.03-10.53.12:417][464]LogActorFactory: Actor Factory spawned Blueprint /Game/Character/NPC/NPC.NPC as actor: NPC_C /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.NPC_C_0
+[2024.06.03-10.53.12:420][464]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2024.06.03-10.53.12:997][475]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Character/NPC/NPC.NPC_C
+[2024.06.03-10.53.12:997][475]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Character/NPC/NPC.NPC_C
+[2024.06.03-10.53.12:998][475]LogActorFactory: Actor Factory spawned Blueprint /Game/Character/NPC/NPC.NPC as actor: NPC_C /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.NPC_C_1
+[2024.06.03-10.53.12:999][475]LogActorFactory: Actor Factory spawned Blueprint /Game/Character/NPC/NPC.NPC as actor: NPC_C /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.NPC_C_1
+[2024.06.03-10.53.14:292][523]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.03-10.53.14:292][523]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartMap
+[2024.06.03-10.53.14:293][523]LogWorld: UWorld::CleanupWorld for StartMap, bSessionEnded=true, bCleanupResources=true
+[2024.06.03-10.53.14:295][523]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.03-10.53.14:298][523]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.03-10.53.14:309][523]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.03-10.53.14:438][523]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.06.03-10.53.14:438][523]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.06.03-10.53.14:440][523]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.06.03-10.53.14:453][523]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.03-10.53.14:462][523]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2024.06.03-10.53.14:607][524]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2024.06.03-10.53.16:081][575]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Character/NPC/NPC.NPC_C
+[2024.06.03-10.53.16:081][575]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Character/NPC/NPC.NPC_C
+[2024.06.03-10.53.16:085][575]LogActorFactory: Actor Factory spawned Blueprint /Game/Character/NPC/NPC.NPC as actor: NPC_C /Game/Maps/StartMap.StartMap:PersistentLevel.NPC_C_0
+[2024.06.03-10.53.16:089][575]LogActorFactory: Actor Factory spawned Blueprint /Game/Character/NPC/NPC.NPC as actor: NPC_C /Game/Maps/StartMap.StartMap:PersistentLevel.NPC_C_0
+[2024.06.03-10.53.17:516][596]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Character/NPC/NPC.NPC_C
+[2024.06.03-10.53.17:516][596]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Character/NPC/NPC.NPC_C
+[2024.06.03-10.53.17:524][596]LogActorFactory: Actor Factory spawned Blueprint /Game/Character/NPC/NPC.NPC as actor: NPC_C /Game/Maps/StartMap.StartMap:PersistentLevel.NPC_C_1
+[2024.06.03-10.53.17:531][596]LogActorFactory: Actor Factory spawned Blueprint /Game/Character/NPC/NPC.NPC as actor: NPC_C /Game/Maps/StartMap.StartMap:PersistentLevel.NPC_C_1
+[2024.06.03-10.53.18:640][630]LogDebuggerCommands: Repeating last play command: 선택된 뷰포트
+[2024.06.03-10.53.19:029][630]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.03-10.53.19:029][630]PIE: New page: PIE 세션: StartMap (2024. 6. 4. 오전 4:53:19)
+[2024.06.03-10.53.19:029][630]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartMap
+[2024.06.03-10.53.19:043][630]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014453s)
+[2024.06.03-10.53.19:043][630]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartMap.StartMap to /Game/Maps/UEDPIE_0_StartMap.StartMap (0.014489s)
+[2024.06.03-10.53.19:044][630]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.03-10.53.19:044][630]LogAIModule: Creating AISystem for world StartMap
+[2024.06.03-10.53.19:044][630]LogPlayLevel: PIE: World Init took: (0.001031s)
+[2024.06.03-10.53.19:160][630]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2024.06.03-10.53.19:164][630]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2024.06.03-10.53.19:164][630]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.03-10.53.19:164][630]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.03-10.53.19:164][630]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.03-10.53.19:164][630]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.03-10.53.19:164][630]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.06.03-10.53.19:164][630]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.06.03-10.53.19:164][630]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.06.03-10.53.19:164][630]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.03-10.53.19:164][630]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.03-10.53.19:164][630]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.03-10.53.19:164][630]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.03-10.53.19:167][630]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.03-10.53.19:497][630]LogAudioMixer: Display: Using Audio Hardware Device 스피커(ABKO N800)
+[2024.06.03-10.53.19:498][630]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.03-10.53.19:498][630]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.03-10.53.19:498][630]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.03-10.53.19:498][630]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2024.06.03-10.53.19:498][630]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2024.06.03-10.53.19:501][630]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2024.06.03-10.53.19:502][630]LogInit: FAudioDevice initialized.
+[2024.06.03-10.53.19:502][630]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2024.06.03-10.53.19:502][630]LogAudio: Display: Audio Device (ID: 5) registered with world 'StartMap'.
+[2024.06.03-10.53.19:506][630]LogLoad: Game class is 'MainGameMode_C'
+[2024.06.03-10.53.19:509][630]AnimBlueprintLog: Warning: 슬롯노드: Y_Animation_C 애니메이션 인스턴트 클래스의 'DefaultSlot'는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2024.06.03-10.53.19:510][630]AnimBlueprintLog: Warning: 슬롯노드: Y_Animation_C 애니메이션 인스턴트 클래스의 'DefaultSlot'는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2024.06.03-10.53.19:511][630]AnimBlueprintLog: Warning: 슬롯노드: Y_Animation_C 애니메이션 인스턴트 클래스의 'DefaultSlot'는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2024.06.03-10.53.19:515][630]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartMap.StartMap up for play (max tick rate 0) at 2024.06.03-19.53.19
+[2024.06.03-10.53.19:518][630]LogWorld: Bringing up level for play took: 0.012253
+[2024.06.03-10.53.19:522][630]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2024.06.03-10.53.19:525][630]LogPhysics: Warning: Scale for /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.06.03-10.53.19:525][630]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_0.StaticMesh' 
+[2024.06.03-10.53.19:526][630]LogPhysics: Warning: Scale for /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_4.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.06.03-10.53.19:526][630]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_4.StaticMesh' 
+[2024.06.03-10.53.19:526][630]LogPhysics: Warning: Scale for /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_7.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.06.03-10.53.19:526][630]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_7.StaticMesh' 
+[2024.06.03-10.53.19:526][630]LogPhysics: Warning: Scale for /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_8.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.06.03-10.53.19:526][630]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_8.StaticMesh' 
+[2024.06.03-10.53.19:526][630]LogPhysics: Warning: Scale for /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_9.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.06.03-10.53.19:526][630]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_9.StaticMesh' 
+[2024.06.03-10.53.19:527][630]LogPhysics: Warning: Scale for /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_10.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.06.03-10.53.19:527][630]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_10.StaticMesh' 
+[2024.06.03-10.53.19:527][630]LogPhysics: Warning: Scale for /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_12.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.06.03-10.53.19:527][630]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_12.StaticMesh' 
+[2024.06.03-10.53.19:528][630]LogPhysics: Warning: Scale for /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Potion_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.06.03-10.53.19:528][630]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Potion_C_0.StaticMesh' 
+[2024.06.03-10.53.19:528][630]LogPhysics: Warning: Scale for /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Potion_C_2.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.06.03-10.53.19:528][630]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Potion_C_2.StaticMesh' 
+[2024.06.03-10.53.19:528][630]LogPhysics: Warning: Scale for /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Potion_C_3.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.06.03-10.53.19:528][630]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Potion_C_3.StaticMesh' 
+[2024.06.03-10.53.19:532][630]LogBlueprintUserMessages: [MainPlayer_2_C_0] change Unarmed
+[2024.06.03-10.53.19:532][630]PIE: 서버가 로그인했습니다.
+[2024.06.03-10.53.19:533][630]PIE: 에디터에서 플레이 총 시작 시간 0.509초입니다.
+[2024.06.03-10.53.19:536][630]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_0.StaticMesh, from: Addition to navoctree)
+[2024.06.03-10.53.19:536][630]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_4.StaticMesh, from: Addition to navoctree)
+[2024.06.03-10.53.19:536][630]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_7.StaticMesh, from: Addition to navoctree)
+[2024.06.03-10.53.19:536][630]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_8.StaticMesh, from: Addition to navoctree)
+[2024.06.03-10.53.19:536][630]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_9.StaticMesh, from: Addition to navoctree)
+[2024.06.03-10.53.19:536][630]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_10.StaticMesh, from: Addition to navoctree)
+[2024.06.03-10.53.19:536][630]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_12.StaticMesh, from: Addition to navoctree)
+[2024.06.03-10.53.19:536][630]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Potion_C_0.StaticMesh, from: Addition to navoctree)
+[2024.06.03-10.53.19:536][630]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Potion_C_2.StaticMesh, from: Addition to navoctree)
+[2024.06.03-10.53.19:536][630]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Potion_C_3.StaticMesh, from: Addition to navoctree)
+[2024.06.03-10.53.27:550][ 16]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.03-10.53.27:550][ 16]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartMap
+[2024.06.03-10.53.27:551][ 16]LogWorld: UWorld::CleanupWorld for StartMap, bSessionEnded=true, bCleanupResources=true
+[2024.06.03-10.53.27:552][ 16]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.03-10.53.27:559][ 16]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.03-10.53.27:569][ 16]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.03-10.53.27:691][ 16]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.06.03-10.53.27:691][ 16]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.06.03-10.53.27:695][ 16]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.06.03-10.53.27:703][ 16]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.03-10.53.27:710][ 16]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2024.06.03-10.53.27:874][ 17]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2024.06.03-10.53.29:324][ 68]LogViewport: Scene viewport resized to 1525x979, mode Windowed.
+[2024.06.03-10.54.10:531][174]LogEditorTransaction: Undo 컴포넌트 붙여넣기
+[2024.06.03-10.54.11:427][194]LogEditorTransaction: Undo 컴포넌트 붙여넣기
+[2024.06.03-10.55.24:162][602]BlueprintLog: New page: NPC 컴파일
+[2024.06.03-10.55.24:166][602]LogBlueprint: Warning: [AssetLog] /Game/Character/NPC/NPC.NPC (no disk path found): [Compiler] NPC_C'에서 "Mesh" 라는 이름의 변수를 찾을 수 없습니다.
+ Mesh 구하기 에 대해 'NPC_C' 컴파일이 되었는지 확인하세요.
+[2024.06.03-10.55.24:167][602]LogBlueprint: Error: [AssetLog] /Game/Character/NPC/NPC.NPC (no disk path found): [Compiler] '/Game/Character/NPC/NPC.NPC_C'에서  Mesh 와 연관된 프로퍼티를 찾지 못했습니다.
+[2024.06.03-10.55.24:363][602]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2024.06.03-10.55.36:233][520]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.03-10.55.36:307][520]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/NPC/NPC" FILE="F:/YP/Skyrim/Unreal_Skyrim/Content/Character/NPC/NPC.uasset" SILENT=true
+[2024.06.03-10.55.36:584][520]LogSavePackage: Moving output files for package: /Game/Character/NPC/NPC
+[2024.06.03-10.55.36:584][520]LogSavePackage: Moving 'F:/YP/Skyrim/Unreal_Skyrim/Saved/NPCC0ED876D42F194FC19DB5AB81AABA48D.tmp' to 'F:/YP/Skyrim/Unreal_Skyrim/Content/Character/NPC/NPC.uasset'
+[2024.06.03-10.55.36:601][520]LogFileHelpers: InternalPromptForCheckoutAndSave took 368 ms (total: 2.46 sec)
+[2024.06.03-10.55.36:618][520]AssetCheck: New page: 에셋 저장:  NPC
+[2024.06.03-10.55.36:618][520]LogContentValidation: Display: /Script/Engine.Blueprint /Game/Character/NPC/NPC.NPC 유효성 검사 중
+[2024.06.03-10.55.37:435][581]BlueprintLog: New page: NPC 컴파일
+[2024.06.03-10.55.37:645][581]LogUObjectHash: Compacting FUObjectHashTables data took   3.30ms
+[2024.06.03-10.55.38:953][620]LogDebuggerCommands: Repeating last play command: 선택된 뷰포트
+[2024.06.03-10.55.39:050][620]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.03-10.55.39:050][620]PIE: New page: PIE 세션: StartMap (2024. 6. 4. 오전 4:55:39)
+[2024.06.03-10.55.39:050][620]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartMap
+[2024.06.03-10.55.39:081][620]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030862s)
+[2024.06.03-10.55.39:081][620]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartMap.StartMap to /Game/Maps/UEDPIE_0_StartMap.StartMap (0.030914s)
+[2024.06.03-10.55.39:082][620]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.03-10.55.39:082][620]LogAIModule: Creating AISystem for world StartMap
+[2024.06.03-10.55.39:083][620]LogPlayLevel: PIE: World Init took: (0.001754s)
+[2024.06.03-10.55.39:288][620]LogUObjectHash: Compacting FUObjectHashTables data took   5.30ms
+[2024.06.03-10.55.39:291][620]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2024.06.03-10.55.39:291][620]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.03-10.55.39:291][620]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.03-10.55.39:291][620]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.03-10.55.39:291][620]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.03-10.55.39:291][620]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.06.03-10.55.39:292][620]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.06.03-10.55.39:292][620]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.06.03-10.55.39:292][620]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.03-10.55.39:293][620]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.03-10.55.39:293][620]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.03-10.55.39:293][620]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.03-10.55.39:297][620]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.03-10.55.39:780][620]LogAudioMixer: Display: Using Audio Hardware Device 스피커(ABKO N800)
+[2024.06.03-10.55.39:780][620]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.03-10.55.39:780][620]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.03-10.55.39:780][620]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.03-10.55.39:781][620]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2024.06.03-10.55.39:781][620]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2024.06.03-10.55.39:783][620]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2024.06.03-10.55.39:783][620]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2024.06.03-10.55.39:783][620]LogInit: FAudioDevice initialized.
+[2024.06.03-10.55.39:784][620]LogAudio: Display: Audio Device (ID: 6) registered with world 'StartMap'.
+[2024.06.03-10.55.39:787][620]LogLoad: Game class is 'MainGameMode_C'
+[2024.06.03-10.55.39:790][620]AnimBlueprintLog: Warning: 슬롯노드: Y_Animation_C 애니메이션 인스턴트 클래스의 'DefaultSlot'는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2024.06.03-10.55.39:791][620]AnimBlueprintLog: Warning: 슬롯노드: Y_Animation_C 애니메이션 인스턴트 클래스의 'DefaultSlot'는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2024.06.03-10.55.39:792][620]AnimBlueprintLog: Warning: 슬롯노드: Y_Animation_C 애니메이션 인스턴트 클래스의 'DefaultSlot'는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2024.06.03-10.55.39:795][620]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartMap.StartMap up for play (max tick rate 0) at 2024.06.03-19.55.39
+[2024.06.03-10.55.39:798][620]LogWorld: Bringing up level for play took: 0.010458
+[2024.06.03-10.55.39:801][620]LogOnline: OSS: Created online subsystem instance for: :Context_36
+[2024.06.03-10.55.39:805][620]LogPhysics: Warning: Scale for /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.06.03-10.55.39:805][620]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_0.StaticMesh' 
+[2024.06.03-10.55.39:805][620]LogPhysics: Warning: Scale for /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_4.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.06.03-10.55.39:805][620]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_4.StaticMesh' 
+[2024.06.03-10.55.39:806][620]LogPhysics: Warning: Scale for /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_7.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.06.03-10.55.39:806][620]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_7.StaticMesh' 
+[2024.06.03-10.55.39:806][620]LogPhysics: Warning: Scale for /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_8.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.06.03-10.55.39:806][620]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_8.StaticMesh' 
+[2024.06.03-10.55.39:806][620]LogPhysics: Warning: Scale for /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_9.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.06.03-10.55.39:806][620]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_9.StaticMesh' 
+[2024.06.03-10.55.39:806][620]LogPhysics: Warning: Scale for /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_10.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.06.03-10.55.39:806][620]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_10.StaticMesh' 
+[2024.06.03-10.55.39:807][620]LogPhysics: Warning: Scale for /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_12.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.06.03-10.55.39:807][620]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_12.StaticMesh' 
+[2024.06.03-10.55.39:807][620]LogPhysics: Warning: Scale for /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Potion_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.06.03-10.55.39:807][620]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Potion_C_0.StaticMesh' 
+[2024.06.03-10.55.39:807][620]LogPhysics: Warning: Scale for /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Potion_C_2.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.06.03-10.55.39:807][620]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Potion_C_2.StaticMesh' 
+[2024.06.03-10.55.39:807][620]LogPhysics: Warning: Scale for /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Potion_C_3.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.06.03-10.55.39:807][620]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Potion_C_3.StaticMesh' 
+[2024.06.03-10.55.39:811][620]LogBlueprintUserMessages: [MainPlayer_2_C_0] change Unarmed
+[2024.06.03-10.55.39:811][620]PIE: 서버가 로그인했습니다.
+[2024.06.03-10.55.39:812][620]PIE: 에디터에서 플레이 총 시작 시간 0.763초입니다.
+[2024.06.03-10.55.39:814][620]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_0.StaticMesh, from: Addition to navoctree)
+[2024.06.03-10.55.39:814][620]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_4.StaticMesh, from: Addition to navoctree)
+[2024.06.03-10.55.39:814][620]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_7.StaticMesh, from: Addition to navoctree)
+[2024.06.03-10.55.39:814][620]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_8.StaticMesh, from: Addition to navoctree)
+[2024.06.03-10.55.39:814][620]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_9.StaticMesh, from: Addition to navoctree)
+[2024.06.03-10.55.39:814][620]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_10.StaticMesh, from: Addition to navoctree)
+[2024.06.03-10.55.39:814][620]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_12.StaticMesh, from: Addition to navoctree)
+[2024.06.03-10.55.39:814][620]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Potion_C_0.StaticMesh, from: Addition to navoctree)
+[2024.06.03-10.55.39:814][620]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Potion_C_2.StaticMesh, from: Addition to navoctree)
+[2024.06.03-10.55.39:814][620]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Potion_C_3.StaticMesh, from: Addition to navoctree)
+[2024.06.03-10.55.45:911][865]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.03-10.55.45:911][865]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartMap
+[2024.06.03-10.55.45:911][865]LogWorld: UWorld::CleanupWorld for StartMap, bSessionEnded=true, bCleanupResources=true
+[2024.06.03-10.55.45:912][865]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.03-10.55.45:924][865]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.03-10.55.45:938][865]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.03-10.55.46:077][865]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.06.03-10.55.46:078][865]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.06.03-10.55.46:080][865]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.06.03-10.55.46:087][865]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.03-10.55.46:097][865]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2024.06.03-10.55.46:242][866]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2024.06.03-10.56.59:193][106]LogDebuggerCommands: Repeating last play command: 선택된 뷰포트
+[2024.06.03-10.56.59:494][106]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.03-10.56.59:494][106]PIE: New page: PIE 세션: StartMap (2024. 6. 4. 오전 4:56:59)
+[2024.06.03-10.56.59:494][106]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartMap
+[2024.06.03-10.56.59:518][106]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023377s)
+[2024.06.03-10.56.59:518][106]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartMap.StartMap to /Game/Maps/UEDPIE_0_StartMap.StartMap (0.023426s)
+[2024.06.03-10.56.59:518][106]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.03-10.56.59:518][106]LogAIModule: Creating AISystem for world StartMap
+[2024.06.03-10.56.59:519][106]LogPlayLevel: PIE: World Init took: (0.001132s)
+[2024.06.03-10.56.59:687][106]LogUObjectHash: Compacting FUObjectHashTables data took   3.93ms
+[2024.06.03-10.56.59:693][106]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2024.06.03-10.56.59:693][106]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.03-10.56.59:693][106]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.03-10.56.59:693][106]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.03-10.56.59:693][106]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.03-10.56.59:693][106]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.06.03-10.56.59:693][106]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.06.03-10.56.59:693][106]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.06.03-10.56.59:693][106]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.03-10.56.59:694][106]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.03-10.56.59:694][106]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.03-10.56.59:694][106]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.03-10.56.59:697][106]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.03-10.56.59:971][106]LogAudioMixer: Display: Using Audio Hardware Device 스피커(ABKO N800)
+[2024.06.03-10.56.59:971][106]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.03-10.56.59:971][106]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.03-10.56.59:971][106]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.03-10.56.59:974][106]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2024.06.03-10.56.59:974][106]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2024.06.03-10.56.59:976][106]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2024.06.03-10.56.59:976][106]LogInit: FAudioDevice initialized.
+[2024.06.03-10.56.59:976][106]LogAudio: Display: Audio Device (ID: 7) registered with world 'StartMap'.
+[2024.06.03-10.56.59:976][106]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2024.06.03-10.56.59:980][106]LogLoad: Game class is 'MainGameMode_C'
+[2024.06.03-10.56.59:983][106]AnimBlueprintLog: Warning: 슬롯노드: Y_Animation_C 애니메이션 인스턴트 클래스의 'DefaultSlot'는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2024.06.03-10.56.59:984][106]AnimBlueprintLog: Warning: 슬롯노드: Y_Animation_C 애니메이션 인스턴트 클래스의 'DefaultSlot'는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2024.06.03-10.56.59:985][106]AnimBlueprintLog: Warning: 슬롯노드: Y_Animation_C 애니메이션 인스턴트 클래스의 'DefaultSlot'는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2024.06.03-10.56.59:988][106]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartMap.StartMap up for play (max tick rate 0) at 2024.06.03-19.56.59
+[2024.06.03-10.56.59:992][106]LogWorld: Bringing up level for play took: 0.011132
+[2024.06.03-10.56.59:995][106]LogOnline: OSS: Created online subsystem instance for: :Context_37
+[2024.06.03-10.57.00:000][106]LogPhysics: Warning: Scale for /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.06.03-10.57.00:000][106]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_0.StaticMesh' 
+[2024.06.03-10.57.00:001][106]LogPhysics: Warning: Scale for /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_4.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.06.03-10.57.00:001][106]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_4.StaticMesh' 
+[2024.06.03-10.57.00:001][106]LogPhysics: Warning: Scale for /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_7.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.06.03-10.57.00:001][106]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_7.StaticMesh' 
+[2024.06.03-10.57.00:001][106]LogPhysics: Warning: Scale for /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_8.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.06.03-10.57.00:002][106]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_8.StaticMesh' 
+[2024.06.03-10.57.00:002][106]LogPhysics: Warning: Scale for /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_9.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.06.03-10.57.00:002][106]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_9.StaticMesh' 
+[2024.06.03-10.57.00:002][106]LogPhysics: Warning: Scale for /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_10.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.06.03-10.57.00:002][106]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_10.StaticMesh' 
+[2024.06.03-10.57.00:003][106]LogPhysics: Warning: Scale for /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_12.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.06.03-10.57.00:003][106]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_12.StaticMesh' 
+[2024.06.03-10.57.00:004][106]LogPhysics: Warning: Scale for /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Potion_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.06.03-10.57.00:004][106]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Potion_C_0.StaticMesh' 
+[2024.06.03-10.57.00:004][106]LogPhysics: Warning: Scale for /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Potion_C_2.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.06.03-10.57.00:004][106]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Potion_C_2.StaticMesh' 
+[2024.06.03-10.57.00:005][106]LogPhysics: Warning: Scale for /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Potion_C_3.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.06.03-10.57.00:005][106]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Potion_C_3.StaticMesh' 
+[2024.06.03-10.57.00:010][106]LogBlueprintUserMessages: [MainPlayer_2_C_0] change Unarmed
+[2024.06.03-10.57.00:011][106]PIE: 서버가 로그인했습니다.
+[2024.06.03-10.57.00:012][106]PIE: 에디터에서 플레이 총 시작 시간 0.521초입니다.
+[2024.06.03-10.57.00:014][106]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_0.StaticMesh, from: Addition to navoctree)
+[2024.06.03-10.57.00:014][106]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_4.StaticMesh, from: Addition to navoctree)
+[2024.06.03-10.57.00:014][106]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_7.StaticMesh, from: Addition to navoctree)
+[2024.06.03-10.57.00:014][106]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_8.StaticMesh, from: Addition to navoctree)
+[2024.06.03-10.57.00:014][106]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_9.StaticMesh, from: Addition to navoctree)
+[2024.06.03-10.57.00:014][106]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_10.StaticMesh, from: Addition to navoctree)
+[2024.06.03-10.57.00:014][106]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_12.StaticMesh, from: Addition to navoctree)
+[2024.06.03-10.57.00:014][106]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Potion_C_0.StaticMesh, from: Addition to navoctree)
+[2024.06.03-10.57.00:014][106]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Potion_C_2.StaticMesh, from: Addition to navoctree)
+[2024.06.03-10.57.00:014][106]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Potion_C_3.StaticMesh, from: Addition to navoctree)
+[2024.06.03-10.57.04:330][273]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.03-10.57.04:330][273]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartMap
+[2024.06.03-10.57.04:331][273]LogWorld: UWorld::CleanupWorld for StartMap, bSessionEnded=true, bCleanupResources=true
+[2024.06.03-10.57.04:333][273]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.03-10.57.04:355][273]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.03-10.57.04:371][273]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.03-10.57.04:503][273]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.06.03-10.57.04:503][273]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.06.03-10.57.04:505][273]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.06.03-10.57.04:513][273]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.03-10.57.04:521][273]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2024.06.03-10.57.04:800][274]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2024.06.03-10.57.21:961][189]LogShaderCompilers: Display: ================================================
+[2024.06.03-10.57.21:961][189]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.06.03-10.57.21:961][189]LogShaderCompilers: Display: Total job queries 251, among them cache hits 22 (8.76%)
+[2024.06.03-10.57.21:961][189]LogShaderCompilers: Display: Tracking 229 distinct input hashes that result in 104 distinct outputs (45.41%)
+[2024.06.03-10.57.21:961][189]LogShaderCompilers: Display: RAM used: 1.73 MB (0.00 GB) of 1228.80 MB (1.20 GB) budget. Usage: 0.14%
+[2024.06.03-10.57.21:961][189]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.06.03-10.57.21:961][189]LogShaderCompilers: Display: Shaders Compiled: 28
+[2024.06.03-10.57.21:961][189]LogShaderCompilers: Display: Jobs assigned 28, completed 28 (100.00%)
+[2024.06.03-10.57.21:961][189]LogShaderCompilers: Display: Average time worker was idle: 9.69 s
+[2024.06.03-10.57.21:961][189]LogShaderCompilers: Display: Time job spent in pending queue: average 0.05 s, longest 0.09 s
+[2024.06.03-10.57.21:961][189]LogShaderCompilers: Display: Job execution time: average 1.89 s, max 2.89 s
+[2024.06.03-10.57.21:961][189]LogShaderCompilers: Display: Job life time (pending + execution): average 1.94 s, max 2.94
+[2024.06.03-10.57.21:961][189]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 22.83 s
+[2024.06.03-10.57.21:961][189]LogShaderCompilers: Display: Jobs were issued in 28 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.06.03-10.57.21:961][189]LogShaderCompilers: Display: Average processing rate: 1.23 jobs/sec
+[2024.06.03-10.57.21:961][189]LogShaderCompilers: Display: Total thread time: 42.72 s
+[2024.06.03-10.57.21:961][189]LogShaderCompilers: Display: Total thread preprocess time: 2.53 s
+[2024.06.03-10.57.21:961][189]LogShaderCompilers: Display: Percentage time preprocessing: 5.91%
+[2024.06.03-10.57.21:961][189]LogShaderCompilers: Display: Effective parallelization: 1.87 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2024.06.03-10.57.21:961][189]LogShaderCompilers: Display: Top 4 most expensive shader types by average time:
+[2024.06.03-10.57.21:961][189]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   11 times, average 1.69 sec, max 2.47 sec, min 1.38 sec)
+[2024.06.03-10.57.21:961][189]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   11 times, average 1.53 sec, max 2.10 sec, min 1.30 sec)
+[2024.06.03-10.57.21:961][189]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    3 times, average 1.43 sec, max 1.48 sec, min 1.39 sec)
+[2024.06.03-10.57.21:961][189]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    3 times, average 1.00 sec, max 1.04 sec, min 0.96 sec)
+[2024.06.03-10.57.21:961][189]LogShaderCompilers: Display: Top 4 shader types by total compile time:
+[2024.06.03-10.57.21:961][189]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 43.46% of total time (compiled   11 times, average 1.69 sec, max 2.47 sec, min 1.38 sec)
+[2024.06.03-10.57.21:961][189]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 39.48% of total time (compiled   11 times, average 1.53 sec, max 2.10 sec, min 1.30 sec)
+[2024.06.03-10.57.21:961][189]LogShaderCompilers: Display:                                                 FLumenCardVS - 10.05% of total time (compiled    3 times, average 1.43 sec, max 1.48 sec, min 1.39 sec)
+[2024.06.03-10.57.21:961][189]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 7.01% of total time (compiled    3 times, average 1.00 sec, max 1.04 sec, min 0.96 sec)
+[2024.06.03-10.57.21:961][189]LogShaderCompilers: Display: ================================================
+[2024.06.03-10.57.24:368][321]LogDebuggerCommands: Repeating last play command: 선택된 뷰포트
+[2024.06.03-10.57.24:465][321]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2024.06.03-10.57.24:466][321]LogPlayLevel: [PlayLevel] Compiling NPC before play...
+[2024.06.03-10.57.25:044][321]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
+[2024.06.03-10.57.25:048][321]LogPlayLevel: PlayLevel: Blueprint regeneration took 583 ms (1 blueprints)
+[2024.06.03-10.57.25:048][321]PIE: New page: PIE 세션: StartMap (2024. 6. 4. 오전 4:57:25)
+[2024.06.03-10.57.25:048][321]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartMap
+[2024.06.03-10.57.25:068][321]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019744s)
+[2024.06.03-10.57.25:068][321]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartMap.StartMap to /Game/Maps/UEDPIE_0_StartMap.StartMap (0.019798s)
+[2024.06.03-10.57.25:068][321]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.03-10.57.25:069][321]LogAIModule: Creating AISystem for world StartMap
+[2024.06.03-10.57.25:070][321]LogPlayLevel: PIE: World Init took: (0.001388s)
+[2024.06.03-10.57.25:214][321]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2024.06.03-10.57.25:216][321]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2024.06.03-10.57.25:216][321]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.03-10.57.25:216][321]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.03-10.57.25:216][321]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.03-10.57.25:216][321]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.03-10.57.25:216][321]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.06.03-10.57.25:216][321]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.06.03-10.57.25:216][321]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.06.03-10.57.25:216][321]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.03-10.57.25:217][321]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.03-10.57.25:217][321]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.03-10.57.25:217][321]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.03-10.57.25:220][321]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.03-10.57.25:512][321]LogAudioMixer: Display: Using Audio Hardware Device 스피커(ABKO N800)
+[2024.06.03-10.57.25:513][321]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.03-10.57.25:513][321]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.03-10.57.25:513][321]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.03-10.57.25:514][321]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2024.06.03-10.57.25:514][321]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2024.06.03-10.57.25:516][321]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2024.06.03-10.57.25:516][321]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2024.06.03-10.57.25:516][321]LogInit: FAudioDevice initialized.
+[2024.06.03-10.57.25:516][321]LogAudio: Display: Audio Device (ID: 8) registered with world 'StartMap'.
+[2024.06.03-10.57.25:521][321]LogLoad: Game class is 'MainGameMode_C'
+[2024.06.03-10.57.25:524][321]AnimBlueprintLog: Warning: 슬롯노드: Y_Animation_C 애니메이션 인스턴트 클래스의 'DefaultSlot'는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2024.06.03-10.57.25:525][321]AnimBlueprintLog: Warning: 슬롯노드: Y_Animation_C 애니메이션 인스턴트 클래스의 'DefaultSlot'는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2024.06.03-10.57.25:526][321]AnimBlueprintLog: Warning: 슬롯노드: Y_Animation_C 애니메이션 인스턴트 클래스의 'DefaultSlot'는 이미 존재합니다. 이 클래스의 애니메이션 그래프에서 중복을 제거하세요.
+[2024.06.03-10.57.25:529][321]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartMap.StartMap up for play (max tick rate 0) at 2024.06.03-19.57.25
+[2024.06.03-10.57.25:532][321]LogWorld: Bringing up level for play took: 0.010928
+[2024.06.03-10.57.25:536][321]LogOnline: OSS: Created online subsystem instance for: :Context_39
+[2024.06.03-10.57.25:540][321]LogPhysics: Warning: Scale for /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.06.03-10.57.25:540][321]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_0.StaticMesh' 
+[2024.06.03-10.57.25:541][321]LogPhysics: Warning: Scale for /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_4.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.06.03-10.57.25:541][321]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_4.StaticMesh' 
+[2024.06.03-10.57.25:541][321]LogPhysics: Warning: Scale for /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_7.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.06.03-10.57.25:541][321]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_7.StaticMesh' 
+[2024.06.03-10.57.25:541][321]LogPhysics: Warning: Scale for /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_8.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.06.03-10.57.25:542][321]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_8.StaticMesh' 
+[2024.06.03-10.57.25:542][321]LogPhysics: Warning: Scale for /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_9.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.06.03-10.57.25:542][321]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_9.StaticMesh' 
+[2024.06.03-10.57.25:542][321]LogPhysics: Warning: Scale for /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_10.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.06.03-10.57.25:542][321]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_10.StaticMesh' 
+[2024.06.03-10.57.25:542][321]LogPhysics: Warning: Scale for /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_12.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.06.03-10.57.25:543][321]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_12.StaticMesh' 
+[2024.06.03-10.57.25:543][321]LogPhysics: Warning: Scale for /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Potion_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.06.03-10.57.25:543][321]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Potion_C_0.StaticMesh' 
+[2024.06.03-10.57.25:543][321]LogPhysics: Warning: Scale for /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Potion_C_2.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.06.03-10.57.25:543][321]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Potion_C_2.StaticMesh' 
+[2024.06.03-10.57.25:543][321]LogPhysics: Warning: Scale for /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Potion_C_3.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.06.03-10.57.25:543][321]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Potion_C_3.StaticMesh' 
+[2024.06.03-10.57.25:547][321]LogBlueprintUserMessages: [MainPlayer_2_C_0] change Unarmed
+[2024.06.03-10.57.25:548][321]PIE: 서버가 로그인했습니다.
+[2024.06.03-10.57.25:549][321]PIE: 에디터에서 플레이 총 시작 시간 1.084초입니다.
+[2024.06.03-10.57.25:550][321]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_0.StaticMesh, from: Addition to navoctree)
+[2024.06.03-10.57.25:550][321]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_4.StaticMesh, from: Addition to navoctree)
+[2024.06.03-10.57.25:550][321]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_7.StaticMesh, from: Addition to navoctree)
+[2024.06.03-10.57.25:550][321]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_8.StaticMesh, from: Addition to navoctree)
+[2024.06.03-10.57.25:550][321]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_9.StaticMesh, from: Addition to navoctree)
+[2024.06.03-10.57.25:550][321]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_10.StaticMesh, from: Addition to navoctree)
+[2024.06.03-10.57.25:550][321]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Weapon_C_12.StaticMesh, from: Addition to navoctree)
+[2024.06.03-10.57.25:551][321]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Potion_C_0.StaticMesh, from: Addition to navoctree)
+[2024.06.03-10.57.25:551][321]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Potion_C_2.StaticMesh, from: Addition to navoctree)
+[2024.06.03-10.57.25:551][321]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Maps/UEDPIE_0_StartMap.StartMap:PersistentLevel.Potion_C_3.StaticMesh, from: Addition to navoctree)
+[2024.06.03-10.57.38:149][891]LogBlueprintUserMessages: [MainPlayer_2_C_0] Jump
+[2024.06.03-10.57.38:454][904]LogBlueprintUserMessages: [MainPlayer_2_C_0] Stom Jump
+[2024.06.03-10.57.39:127][937]LogBlueprintUserMessages: [MainPlayer_2_C_0] Jump
+[2024.06.03-10.57.39:631][964]LogBlueprintUserMessages: [MainPlayer_2_C_0] Stom Jump
+[2024.06.03-10.57.40:839][ 30]LogBlueprintUserMessages: [MainPlayer_2_C_0] Stom Jump
+[2024.06.03-10.57.41:259][ 54]LogBlueprintUserMessages: [MainPlayer_2_C_0] Jump
+[2024.06.03-10.57.41:486][ 66]LogBlueprintUserMessages: [MainPlayer_2_C_0] Stom Jump
+[2024.06.03-10.57.42:314][105]LogBlueprintUserMessages: [MainPlayer_2_C_0] Jump
+[2024.06.03-10.57.42:502][115]LogBlueprintUserMessages: [MainPlayer_2_C_0] Stom Jump
+[2024.06.03-10.57.43:233][156]LogBlueprintUserMessages: [MainPlayer_2_C_0] Stom Jump
+[2024.06.03-10.57.43:301][160]LogBlueprintUserMessages: [MainPlayer_2_C_0] Jump
+[2024.06.03-10.57.43:569][174]LogBlueprintUserMessages: [MainPlayer_2_C_0] Stom Jump
+[2024.06.03-10.57.44:246][210]LogBlueprintUserMessages: [MainPlayer_2_C_0] Jump
+[2024.06.03-10.57.44:456][221]LogBlueprintUserMessages: [MainPlayer_2_C_0] Stom Jump
+[2024.06.03-10.57.45:167][257]LogBlueprintUserMessages: [MainPlayer_2_C_0] Jump
+[2024.06.03-10.57.45:338][266]LogBlueprintUserMessages: [MainPlayer_2_C_0] Stom Jump
+[2024.06.03-10.57.45:904][294]LogBlueprintUserMessages: [MainPlayer_2_C_0] Stom Jump
+[2024.06.03-10.57.46:158][308]LogBlueprintUserMessages: [MainPlayer_2_C_0] Jump
+[2024.06.03-10.57.46:338][317]LogBlueprintUserMessages: [MainPlayer_2_C_0] Stom Jump
+[2024.06.03-10.57.48:431][417]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.03-10.57.48:431][417]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartMap
+[2024.06.03-10.57.48:431][417]LogWorld: UWorld::CleanupWorld for StartMap, bSessionEnded=true, bCleanupResources=true
+[2024.06.03-10.57.48:432][417]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.03-10.57.48:439][417]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.03-10.57.48:449][417]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.03-10.57.48:574][417]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.03-10.57.48:574][417]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.06.03-10.57.48:578][417]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.06.03-10.57.48:591][417]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2024.06.03-10.57.48:858][418]LogPlayLevel: Display: Destroying online subsystem :Context_39
